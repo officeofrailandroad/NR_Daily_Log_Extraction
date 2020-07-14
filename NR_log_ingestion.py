@@ -169,12 +169,15 @@ def getrouteccil(docdf):
     #replace non-standard delimiter in text: NR are not consistent. surprise, surprise
     docdf['narrative'] = docdf['narrative'].apply(lambda x: x.replace(' - ',' – '))
     docdf['narrative'] = docdf['narrative'].apply(lambda x: x.replace('CCIL', '– CCIL'))
+    docdf['narrative'] = docdf['narrative'].apply(lambda x: x.replace('. CCIL', '– CCIL'))
     docdf['narrative'] = docdf['narrative'].apply(lambda x: x.replace('. Fault No. ','/ Fault No. '))
 
     #split the narrative column by the appropriate delimiter
     docdf[['route','narrative']] = docdf['narrative'].str.split(' – ',1,expand=True)
     docdf[['ccil','narrative']]  = docdf['narrative'].str.split('/ ',1,expand=True)
     
+    print(docdf['narrative'])
+
     #remove full stops and hypens from ccil
     docdf['ccil'] = docdf['ccil'].apply(lambda x: x.replace('– CCIL', 'CCIL'))
     docdf['ccil'] = docdf['ccil'].apply(lambda x: x.replace('.',''))
