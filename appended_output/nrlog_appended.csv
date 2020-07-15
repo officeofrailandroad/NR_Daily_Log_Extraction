@@ -9,7 +9,7 @@ will change from red to yellow when the train strikes the berth track. A data do
 clarify the situation. S&T staff attended site and reported at 0543 that all equipment and data was in order.
 S&T also advised that it the signalling system is designed to take 28 seconds from the train occupying the
 track circuit until the signal changes. ScotRail advised at 1319 that they were treating the incident as a
-Category ‘A’ SPAD.",Nairn,57.58012963,-3.872998212,IV12 4QS
+Category ‘A’ SPAD.",Nairn,57.58012963,-3.8729982119999997,IV12 4QS
 2019-08-01,Wales & Western (Wales),CCIL 1991501 ,"Fault No. 446070 / At 1103, 2P35, Transport for Wales, 1017 Bargoed – Penarth, passed CF2899 signal on the Down Llandaff
 line at Cardiff Central at red by a cab length. When questioned, the driver stated that the previous signal
 had been at single yellow, and on sighting CF2899 signal at red applied the emergency brake (group 2
@@ -29,7 +29,7 @@ examination.",Brunstane,55.94250459,-3.100977841,EH15 2NG
 2019-08-01,Wales & Western (Wales),CCIL 1991442 ,"At 0845 the signaller at Hereford SB inadvertently replaced H57 signal, platform 2 (Down Main line) at
 Hereford to red in front of 1V33, Transport for Wales, 0629 Manchester Piccadilly – Milford Haven. The
 driver was unable to stop and passed the signal at red. The driver was fit to continue when the
-circumstances were explained.",Hereford,52.06116993,-2.708217764,HR1 1BB
+circumstances were explained.",Hereford,52.06116993,-2.7082177639999996,HR1 1BB
 2019-08-01,Southern (Wessex),CCIL 1991451 ,"At 0903, the driver of 1P15, South Western Railway, 0730 London Waterloo – Portsmouth Harbour brought
 their ten coach train (units 444030 & 444017) to a stand at Portsmouth & Southsea station, with the rear
 two coaches off the platform. The guard released the doors, before securing them again. No passenger
@@ -51,14 +51,14 @@ and found one of the gates was left open, which they then closed. All signage wa
 miss with a member of the public on the Up North Kent line between Slade Green and Erith. The driver
 was fit to proceed and following trains were cautioned. The BT Police were advised, ref. 215. A Mobile
 Operations Manager was on site by 1141 and was joined by the BT Police at 1200. No trace of the person
-was found.",Slade Green,51.46778867,0.190504422,DA8 2NX
+was found.",Slade Green,51.46778867,0.19050442199999998,DA8 2NX
 2019-08-01,Southern (Wessex),CCIL 1991737 ,"At 1904 the driver of 2V55, South Western Railway, 1837 London Waterloo – London Waterloo reported
 a near miss at Barnes Bridge with a person who had jumped onto the track from platform 1 and crossed
 to platform 2 as 2V55 had been on approach. The driver was shaken by the incident but fit to continue.
 The BTP (ref. 520) were advised.",Barnes Bridge,51.47173404,-0.252064268,SW13 0NP
 2019-08-01,Southern (Wessex),CCIL 1991767 ,"At 1958 the driver of 2S62, South Western Railway, 1907 Weybridge – London Waterloo, reported a near
 miss with a person stood on the edge of platform 1 at Hounslow. The driver, who applied the emergency
-brake managed to stop short of the person and was fit to continue. The BTP (ref. 554) were advised.",Hounslow,51.46252802,-0.361826888,TW3 2DQ
+brake managed to stop short of the person and was fit to continue. The BTP (ref. 554) were advised.",Hounslow,51.46252802,-0.36182688799999996,TW3 2DQ
 2019-08-01,Scotland,CCIL 1991419 ,"At 0728, 1B26, Serco Caledonian Sleeper Ltd, 0640 Carstairs – Edinburgh, hauled by locomotive 92020
 and consisting of eight Mark 5 coaches, was travelling through the Princes Street Gardens area when the
 driver urgently advised Edinburgh ICC via a GSMR call, that the train had suffered a complete brake
@@ -89,7 +89,7 @@ the points in the Normal position to allow trains to pass K765 signal on the Dow
 Mobile Operations Manager then also secured the Down Slow end of the points to allow trains to pass
 K765 signal at red on the Down Slow line. After further investigation by S&T staff on site, the fault was
 traced to defective cable cores, which were then diverted to restore power. The Mobile Operations
-Manager then returned the points to normal operation, allowing trains to be signalled normally from 1651.",No.22,52.679394,-0.2444530000000001,PE6 8RW
+Manager then returned the points to normal operation, allowing trains to be signalled normally from 1651.",No.22,52.679393999999995,-0.2444530000000001,PE6 8RW
 2019-08-01,Eastern (EM),CCIL 1991637 ,"Fault No. 149177 / At 1544, East Midlands Control Centre reported signalling issues on the Up and Down Tamworth line at
 Willington, between Burton-on-Trent and Derby. Numerous track circuits were showing as failed and
 DY189 and DY303 signals on the Up Tamworth line were showing blank, resulting in services being
@@ -135,7 +135,7 @@ conference at 2100 the Hope Valley lines between Chinley and Hazel Grove and the
 lines between Chinley and Marple were blocked to traffic due to the risk of significant flood damage to
 railway structures. Local services were able to run to Hazel Grove and Marple from Manchester. As stated
 above the situation is not expected to improve for several days and gold command will remain in place to
-manage the incident.",Furness Vale,53.3487676,-1.98883855,SK12 7QA
+manage the incident.",Furness Vale,53.348767599999995,-1.98883855,SK12 7QA
 2019-08-01,Wales and Western (Western),CCIL 1991314 ,"At 0129 6V03, DB Cargo, 1928 Tees Yard – Margam, activated Eckington Down Main line WILD with axle
 85 RHS wheel flat, 359 kN, level 2 alarm. The train was stopped and the driver advised to proceed at 30
 mph to destination for RST examination. The vehicle, 310919, an HTA type wagon, as per consist, was
@@ -151,7 +151,7 @@ at 0156 and 4V36 was on the move to Acton at 0206, 96 minutes late.",Willesden J
 2019-08-01,Eastern (LNE York),CCIL 1991328 ,"At 1352 the Shift Signaller Manager at Peterborough PSB reported that 1L08, East Midlands Trains,
 0951 Liverpool Lime Street – Norwich formed by unit 158785 had been experiencing door interlocking
 issues on platform 5 at Peterborough. 1L08 was on the move at 1407, 26 minutes late. As a result
-significant reactionary delays were accrued.",Peterborough,52.57499236,-0.249830061,PE1 1QL
+significant reactionary delays were accrued.",Peterborough,52.57499236,-0.24983006100000002,PE1 1QL
 2019-08-02,Southern (Sussex),CCIL 1992027 ,"At 1013 the driver of 1M39, Govia Thameslink Railway, 0948 Brighton – London Victoria formed by units
 387105, 387207 & 387215 comprising 12 coaches in all, brought the train to a stand at the eight-car marker
 board in platform 4 at Gatwick Airport and released all doors on the train. Upon realising the error, all doors
@@ -167,7 +167,7 @@ Ripe (AHB) Level Crossing and Glynde that had been slow to move to a position of
 fit to continue to Haywards Heath where the service was terminated. The staff involved were identified as
 Brighton P’Way staff, who had been fitting rail clamps in the area. All staff were advised to stop work and
 return to their depot for interview. At 1143 the Maintenance Investigating Officer advised that three
-members of Network Rail P’Way staff and a contractor had been relieved of duty and ‘for cause’ screening.",Lewes,50.87062711,0.011335211000000001,BN7 2UP
+members of Network Rail P’Way staff and a contractor had been relieved of duty and ‘for cause’ screening.",Lewes,50.87062711,0.011335211,BN7 2UP
 2019-08-02,Region / Route Train Since Between OUTCOME,CCIL ,Set back to cross over onto the,Region / Route Train Since Between OUTCOME,,,
 2019-08-02,Eastern (LNE York),CCIL 1992071 ,"At 1151 an ambulance was requested to attend Seadale UWC, near Filey, after a member of Network Rail
 Pway staff had been taken ill. The person was attended to by staff and the ambulance service before being
@@ -182,10 +182,10 @@ formed by unit 165116, had sustained an injury to their hand after they had caug
 guard’s door. The guard further advised that they had removed a piece of metal that had pierced their
 hand. The guard was met by their manager at Reading on their return working, and transport was arranged
 to convey them to hospital for assessment. A fitter was also arranged to meet the unit at Reading to affect
-a repair to the guards door.",Reading,51.45878189,-0.9718543740000001,RG1 1LZ
+a repair to the guards door.",Reading,51.45878189,-0.971854374,RG1 1LZ
 2019-08-02,Wales and Western (Western),CCIL 1992235 ,"At 1731 it was advised that an elderly passenger had fallen against 1C80, Great Western Railway, 1203
 London Paddington – Penzance as they had run to board the service at Par, and sustained a laceration to
-their left leg. A taxi was arranged to convey the person to Newquay Hospital for treatment.",Par,50.35531723,-4.7047196389999995,PL24 2LT
+their left leg. A taxi was arranged to convey the person to Newquay Hospital for treatment.",Par,50.35531723,-4.704719639,PL24 2LT
 2019-08-02,Eastern (LNE York),CCIL 1991981 ,"At 0744 the driver of 2C77, Northern Rail, 0713 Harrogate – Leeds, reported a near miss at Burley Park,
 between Leeds and Harrogate, with a person on the line. After the train passed them they sat down in the
 four-foot, refusing to move. The train crew attempted to convince the individual to board the train, but they
@@ -335,7 +335,7 @@ behind the Level Crossing pedestal. The driver was fit to continue, with subsequ
 0040 (Sat) both lines were blocked after it was reported that the person was lying down on the cattle grids.
 The BT Police (ref. 25) and the Mobile Operations Manager were sent to site. Both lines were reopened
 at 0109 (Sat) after it was confirmed that the person was away from the running lines in care of the
-Hampshire Police Force (ref. 52).",Havant,50.85441478,-0.981606362,PO9 1PP
+Hampshire Police Force (ref. 52).",Havant,50.85441478,-0.9816063620000001,PO9 1PP
 2019-08-03,Southern (Kent),CCIL 1992518 ,"At 0810 the driver of 1L08, Southeastern, 0637 St. Pancras International – St. Pancras International,
 reported a near miss at Blue Pigeon Footpath Crossing, between Sandwich and Deal, with a group of
 ramblers that were slow to clear the crossing. The driver who applied the emergency brake was fit to
@@ -384,7 +384,7 @@ and Norwich. Services were cautioned with the Ipswich Mobile Operations Manager 
 operating the barriers under local control. S&T staff were sent to site, reporting at 1538 that they had
 reattached the barrier, however, they were working on an issue with the boom lights. Services continued
 to be cautioned. Trains were signalled normally from 1632, after all repairs and testing had been
-completed. All details were passed to the BT Police, ref 297.",Newton Flotman ,52.544485,1.254218,R15 1QH
+completed. All details were passed to the BT Police, ref 297.",Newton Flotman ,52.544484999999995,1.254218,R15 1QH
 2019-08-03,Eastern (Anglia),CCIL 1992782 ,"At 1900 2N00, Arriva Rail London, 1815 Stratford – Richmond, formed by unit 378219, comprising five
 coaches in all, overran Brondesbury station by three coach lengths, with the driver utilising selective door
 release to set down and pick up passengers. The driver stated that the overrun was due to forgetting the
@@ -408,7 +408,7 @@ WW6985 signal on the Down Whitacre line at Water Orton East had reverted from gr
 approached. The driver was unable to stop and passed the signal at red. The reason for the reversion was
 due to the failure of ‘WPPB’ track circuit. The driver was fit to continue. Trains were signalled normally
 from 1140, after the track circuit had cleared during testing with no fault evident. Arrangements were made
-for further testing to be undertaken after service within LNWS WON 19, Item 138.",Water Orton,52.51859467,-1.743097188,B46 1NE
+for further testing to be undertaken after service within LNWS WON 19, Item 138.",Water Orton,52.51859467,-1.7430971880000001,B46 1NE
 2019-08-03,North West and Central (LNWN),CCIL 1991535 ,"With reference to the item in this section of previous reports regarding the integrity of Toddbrook Reservoir;
 The status quo remains, with the line of route not anticipated to open before start of service Tuesday.
 Following a site meeting at 1600 it was further reported that water levels are down to 1.5 metres, with the
@@ -438,7 +438,7 @@ on Monday.",Penkridge,52.72351572,-2.119295161,ST19 5AN
 Locomotive wheels were examined and found to be free from contamination, with the Lewisham Mobile
 Operations Manager reporting that there was no contamination on the railhead. S&T staff were sent to site
 and completed non-destructive testing by 1350, with no fault found. Destructive was completed by 1606,
-no fault was found, with Level 2 S&T staff authorising normal working from 1659.",Par,50.35531723,-4.7047196389999995,PL24 2LT
+no fault was found, with Level 2 S&T staff authorising normal working from 1659.",Par,50.35531723,-4.704719639,PL24 2LT
 2019-08-04,Wales and Western (Wales),CCIL 1993089 ,"Fault No. 446268 / At 1215 2E09, Transport for Wales, 1040 Pembroke Dock – Carmarthen, passed the Down Platform
 ‘STOP’ board at Carmarthen by approximately 220 yards, with the movement running through No. 63
 points that were set in the Reverse position. When questioned, the driver stated they had received authority
@@ -514,7 +514,7 @@ Preston. The On-Call Local Operations Manager was mobilised to site, due to no M
 Manager cover. S&T and Pway staff attended with points secured to allow services to resume from 1909,
 being talked past affected signals. S&T staff discovered a significant number of blown fuses which were
 replaced gradually restoring the signalling. Additional fuses and three point ECU’s were taken to site.
-When this Report closed only one set of points, PN688B, remained to be restored.",Lancaster,54.04855789,-2.8079099139999997,LA1 5NW
+When this Report closed only one set of points, PN688B, remained to be restored.",Lancaster,54.04855789,-2.807909914,LA1 5NW
 2019-08-05,Southern (Wessex),CCIL 1993484 ,"At 0918, 1V15 South Western Railway, 0750 London Waterloo – Yeovil Pen Mill, formed by units 159013,
 159103 and 159105 arrived in platform 4 at Salisbury. The booked split of the service was then undertaken
 with unit 159103 detached to form 5L30, South Western Railway 0927 Salisbury – Salisbury. Units 159013
@@ -523,7 +523,7 @@ portion of the train at which point it rolled back towards 5L30 and reattached. 
 staff confirmed that no damage had been caused to any of the units. The driver’s manager reported at
 1003 that the driver stated that they had placed the controller in reverse in error and took power. A
 download on the OTMR was requested. The driver was relieved of duty ‘for cause’ screening.
- TRUST 211762 THYM",Salisbury,51.07054404,-1.806389093,SP2 7RS
+ TRUST 211762 THYM",Salisbury,51.07054404,-1.8063890930000002,SP2 7RS
 2019-08-05, Region / Route Train Since Between OUTCOME,"CCIL
 Wales & Western 1A77, Great Western Railway, 0831 – Ivybridge – Totnes Train came to a stand due to a points 1993578
 (Western) 0541 Penzance – London 0940 ",failure at Totnes. The P’Way staff Paddington,Totnes,50.43584686,-3.688721847,TQ9 5JR
@@ -628,13 +628,13 @@ IBJ or causing the failure. Some Southeastern services were cancelled whilst ser
 Dover and London Charing Cross were diverted to London Victoria to ease congestion. Arrangements
 were made for S&T/P’way staff to attend after the AM peak. At 1239 a Line Blockage was granted to allow
 the replacement of the defective IBJ. By 1509, all work had been completed and all lines reopened without
-restrictions.",Waterloo East,51.50416861,-0.109153638,SE1 8NH
+restrictions.",Waterloo East,51.50416861,-0.10915363800000001,SE1 8NH
 2019-08-05,North West and Central (LNWS),CCIL 1993502 ,"Fault No. 860940 / At 1026 the West Midlands Signalling Centre Shift Signaller Manager reported that track circuit 131 on the
 Down Gloucester line approaching Kings Norton was showing occupied when clear, holding signal SY44
 at red. This also blocked traffic from the Camp Hill lines to and from Kings Norton. The Saltley S&T team
 were advised at 1029. Services were diverted via the Gloucester lines. The West Midlands Signalling
 Centre Shift Signaller Manager reported at 1241 that the track circuit had been restored, allowing trains to
-be signalled normally.",Kings Norton,52.4134894,-1.933795298,B30 3EG
+be signalled normally.",Kings Norton,52.413489399999996,-1.9337952980000002,B30 3EG
 2019-08-05,Wales and Western (Western),CCIL 1993578 ,"Fault No. 446335 / At 1311 the driver of 1Y53, Heathrow Express, 1257 London Heathrow Terminal 5 – London Paddington,
 reported that SN194 signal on the Up Main line Acton Main line had reverted from green to red as the train
 approached. The driver was unable to stop and passed the signal at red. The reversion was caused by
@@ -701,7 +701,7 @@ allow 6M85 to proceed forward but work had already started in the possession, wi
 6M85 had to remain at a stand at Alexandra Palace until the possession was given up at 0520. Upon
 further investigation, it was identified that 6M85 was booked on the same route on Wednesday through
 the possession, this schedule was cancelled in TRUST. Reactionary delay followed, with some services
-terminated short of destination.",Alexandra Palace,51.59829000000001,-0.12014000000000001,N22 7ST
+terminated short of destination.",Alexandra Palace,51.59829000000001,-0.12014,N22 7ST
 2019-08-06,Southern (Wessex),CCIL 1994041 ,"At 0946, the driver of 2K17, South Western Railway, 0927 London Waterloo – London Waterloo reported
 that whilst undertaking station duties at Earlsfield a member of the public had tripped and fallen to the floor
 as they attempted to board the train and sustained an injury to their hand. An ambulance was requested.
@@ -734,7 +734,7 @@ had shut down. At 1303, the driver declared the train a failure. Replacement roa
 to run between Reading and Basingstoke, Cross Country services were diverted via Guildford where route
 knowledge permitted. At 1327, Freightliner advised that an assisting locomotive had been identified and
 departed Southampton to provide assistance. By 1503, the assisting locomotive had attached to 4O90
-and the train was on the move to destination.",Reading,51.45878189,-0.9718543740000001,RG1 1LZ
+and the train was on the move to destination.",Reading,51.45878189,-0.971854374,RG1 1LZ
 2019-08-06,Eastern (EM),CCIL 1994136 ,"Fault No. 149274 / At 1401 814 points, Up and Down Slow line crossover at Radlett Junction, failed with no Normal detection.
 One service was trapped between stations (see section 07). A Mobile Operations Manager was sent to
 site and advised at 1419 that they suspected there was an obstruction in the B end of the points. A block
@@ -755,7 +755,7 @@ fault. With the requirement to caution trains past signals on the branch restric
 at 1730, trapping following departures. The Whatley Quarry branch was blocked at 1936 to allow the S&T
 to continue investigations into the failure, believed to be caused by a cable defect. Testing was suspended
 at 2130 to allow for train movements, with tonnages reduced to 2,300 tonnes. The failure was ongoing as
-this Report closed.",Westbury,52.692539000000004,-2.9688,SY5 9DA
+this Report closed.",Westbury,52.692539,-2.9688,SY5 9DA
 2019-08-06,North West and Central (LNWS),CCIL 1993920 ,"Fault No. 861033 / At 0439 116 track circuit on the Down Gloucester line, between Selly Oak and Bournville failed, holding
 SY52 signal at red. Services were terminated at Barnt Green and Longbridge, S&T staff were on site by
 0609 and by 0620 had fully restored the track circuit, allowing trains to be signalled normally. However, at
@@ -765,7 +765,7 @@ cable testing lasting several hours, S&T staff reported finding rodent damage in
 station. After testing the cable and receiving low readings, staff on site suspected that further cable was
 damaged. At 1417, upon testing and inspection of troughing covered with overgrown vegetation, further
 cable significantly damaged by rodents, was identified. Replacement cable was conveyed to site at 1950,
-installation was completed overnight.",Barnt Green,52.36109392,-1.9924666169999998,B45 8PA
+installation was completed overnight.",Barnt Green,52.36109392,-1.992466617,B45 8PA
 2019-08-06,Eastern (Anglia),CCIL 1993989 & 1993998 ,"Fault No. 295935 / At 0726, the Shift Signaller Manager at Upminster reported that ‘DUF’ track circuit on the Up Main line at
 Upney Junction had failed holding UR176 signal at red. This resulted in services terminating short of
 destination with some services diverting via the Tilbury Loop where route knowledge permitted. Further
@@ -783,7 +783,7 @@ normally without restriction.",Upminster,51.55936325,0.251921601,RM14 2TD
 power. After liaising with their Fleet Control, the driver was instructed to switch back to DC traction. This
 restored power and the service proceeded forward at 1538 to Farringdon, where passengers were
 detrained and the unit sent as ECS to Three Bridges Depot. Significant reactionary delays were incurred.
- TRUST 215749 METR",City Thameslink,51.51394000000001,-0.10357999999999999,EC4M 7JH
+ TRUST 215749 METR",City Thameslink,51.51394000000001,-0.10358,EC4M 7JH
 2019-08-06,North West and Central (LNWN),CCIL 1991535 ,"With reference to the item in this section of previous reports regarding the integrity of Toddbrook Reservoir:
 At 1030 it was reported from site that pumping operations had sufficiently reduced the risk of collapse and
 flooding to allow the Hope Valley and Northenden lines to reopen. New Mills South signalbox was opened
@@ -826,7 +826,7 @@ and Kensal Rise. The excess ballast was levelled and the work completed at 1334.
 5, bell vice horn at a warning, on S4 signal on the T&H line at Crouch Hill. Unit 710265. Subsequent
 cautioned services reported receiving the correct indications. The unit was taken out of service and
 returned to Willesden Depot for examination. S&T staff attended to undertake testing; completed by 1157
-with no fault found. The equipment was returned to normal use.",Crouch Hill,51.57125968,-0.116929292,N4 4AU
+with no fault found. The equipment was returned to normal use.",Crouch Hill,51.57125968,-0.11692929199999999,N4 4AU
 2019-08-07,North West and Central (LNWN),CCIL 1994606 ,"Fault No. 861221 /  At 1015 the driver of 1B69, Transpennine Express, 0726 Cleethorpes – Manchester Airport reported that
 signal HG25(R) on the Up Hope Valley line at Disley, reverted from a single yellow aspect to double yellow,
 then back to a single yellow. Upon further investigation, the signaller advised that the signal should have
@@ -848,7 +848,7 @@ destination where they were met on arrival.",Starbeck,53.99901434,-1.501135911,H
 2019-08-07,Eastern (LNE York),CCIL 1994841 ,"Fault No. 765688 / At 1912, 1G22, Northern Rail, 1833 Hull – Scarborough, passed D13 signal on the Down line at Driffield at
 red by three coach lengths. When questioned, the driver stated that they had assumed the signal would
  clear to a proceed aspect (group 2 cause). After consultation with Northern, the driver was judged fit to
- continue and was met on arrival at Bridlington where the train was terminated.",Bridlington,54.08414656,-0.198719149,YO15 3EP
+ continue and was met on arrival at Bridlington where the train was terminated.",Bridlington,54.08414656,-0.19871914899999998,YO15 3EP
 2019-08-07,Eastern (LNE York),CCIL 1994695 ,"At 1324 the driver of 9S24, Govia Thameslink Railway, 1108 Brighton – Cambridge, formed by unit
  700102, comprising twelve coaches in all, brought the train to a stand at Royston station at the eight-car
  marker board and released all of the doors on the train, with the rear four carriages not in the platform.
@@ -862,11 +862,11 @@ the signaller that whilst they were getting ready to cross a train had gone thro
 the crossing at the time. The signaller reported that CCF had frozen which mislead them as to the
 whereabouts of 2D34. No issues were reported by the driver of 2D34. The Local Operations Manager was
  advised and appointed as the Investigating Officer. The signaller was relieved of duty for interview and
- screening.",Snailham,50.926793,0.643504,N36 4AT
+ screening.",Snailham,50.926792999999996,0.643504,N36 4AT
 2019-08-08,North West and Central (LNWN),CCIL 1994606 ,"Fault No. 861221 / With reference to the alleged wrong side failure of HG25 signal on the Up Hope Valley line at Disley,
 detailed in this section of yesterday’s Report; all non-destructive testing had been completed by 0512 with
 destructive testing arranged for overnight. Staff returned after the close of service with testing ongoing at
-the close of this Report.",Disley,53.35819889,-2.0424769659999997,SK12 2AE
+the close of this Report.",Disley,53.35819889,-2.042476966,SK12 2AE
 2019-08-08,Wales and Western (Western),CCIL 1995159 ,"Fault No. 446548
 Please refer to section 06 of this Report for details of an alleged points run through at St. Erth and
  subsequent wrong side failure testing required. / Eastern (Anglia) – – CCIL 1995428 / Fault No. 296122",Wales and Western (Western),,,
@@ -1047,7 +1047,7 @@ Staff reported that where OLE structure G01/06A anchors, the first and second dr
 none of the weight, borne by the soft feed jumper which was twisted. As a result, pantographs were raising
 the running wire and catching the knuckle. Arrangements were made for overnight repairs to be carried
 out within an emergency possession from 2230. All repairs were anticipated to be completed by 0500 for
-start of service.",Wem,52.85632741,-2.7187609139999998,SY4 5AZ
+start of service.",Wem,52.85632741,-2.718760914,SY4 5AZ
 2019-08-10,North West and Central (LNWS),CCIL 1996327 ,"Fault No. 861653 / At 0943 the driver of 6V84, GB Railfreight, 0546 Clitheroe Castle Cement – Avonmouth Hanson’s Sidings,
 hauled by Locomotive 66756, reported an AWS Fault Code 7, nothing received at a warning, at SC5602
 signal on the Up Slow line at Norton Bridge. The driver stated the signal was showing double yellow then
@@ -1055,7 +1055,7 @@ changed to green, but they received no AWS indication. The drivers of the two fo
 no issues but the Level 3 On Call Manager advised the incident was to be treated as a Wrong Side Failure
 Code 7. A Control Centre Technician confirmed that 6V48 entered the section with signal SC5602 showing
 double yellow, changing to green 27 seconds later with the AWS magnet energised. S&T staff arrived on
-site at 1032 and by 1315 had temporarily restored the AWS.",Norton Bridge,52.86671919,-2.190546498,ST15 0XY
+site at 1032 and by 1315 had temporarily restored the AWS.",Norton Bridge,52.86671919,-2.1905464980000002,ST15 0XY
 2019-08-10,Southern (Kent),CCIL 1996566,"Fault No. 449214 / At 1634, the driver of 2F48, Southeastern, 1535 Sevenoaks – London Charing Cross, formed by units
 465014 & 465046, reported an AWS Fault Code 7, nothing received at a warning, on approach to TL2030
 signal on the Up Kent Fast line at Spa Road Junction, which was displaying a red aspect. Following trains
@@ -1098,7 +1098,7 @@ the signal for a route into platform 1 but it would not clear, therefore, 2K17 w
 signal at red. However, when doing so the signaller forgot to advise the driver of P74 signal ahead, which
 is a ground position light on the approach to platform 1. The driver then proceeded past P74 signal at red
 without authority. S&T staff agreed that SPAD checks were not required on the signal, as the incident was
-down to signaller error.",Peterborough,52.57499236,-0.249830061,PE1 1QL
+down to signaller error.",Peterborough,52.57499236,-0.24983006100000002,PE1 1QL
 2019-08-10,Eastern (EM),CCIL 1996504 ,"At 1432, East Midlands Control Centre were advised by staff who were erecting ESR boards for their
 worksite, that they were in fact working outside of the Line Blockage that had been taken. The staff were
 working on the approach side of LR71 signal on the Down Slow line when the Line Blockage was beyond
@@ -1239,7 +1239,7 @@ isolation and allow 2D27 to access London Fenchurch Street station. A rescue uni
 London Fenchurch Street at 1340, arriving alongside the disabled train at 1349. Detraining and transfer of
 passengers was completed at 1442. OLE staff examined the OLE and reported at 1507 that the equipment
 was snot damaged. Work to remove the tree commenced at 1516 and was completed at 1554. Traction
-current was restored and both lines reopened at 1623.",Bromley-by-Bow,51.5248402,-0.011682374,E3 3BT
+current was restored and both lines reopened at 1623.",Bromley-by-Bow,51.5248402,-0.011682373999999999,E3 3BT
 2019-08-10,North West and Central (LNWS),CCIL 1996402 ,"Fault No. 861671 / At 1216 the driver of 1A26, Virgin Trains West Coast, 1035 Manchester Piccadilly – London Euston
 advised there was a fallen tree to the north of Wolverton station, fouling the Down Fast line. A Mobile
 Operations Manager was mobilised to site. All Down Fast line services crossed onto the Slow lines at
@@ -1318,7 +1318,7 @@ that they were still searching for the vulnerable person. By 2236, the Police he
 and the person was discovered in a distressed state at 2247, 1½ miles from Keynsham station. 1A36,
 Great Western Railway, 2004 Plymouth – London Paddington was used to convey BT Police, the Mobile
 Operations Manager and the vulnerable person to Keynsham station where Paramedic staff were waiting.
-All lines were reopened from 2303.",Keynsham,51.41716993,-2.4946332559999997,BS31 2BN
+All lines were reopened from 2303.",Keynsham,51.41716993,-2.494633256,BS31 2BN
 2019-08-11,Southern (Wessex),CCIL 1996857 ,"At 0656 2E09, South Western Railway, 0647 Woolston – Portsmouth & Southsea, formed by unit 450012,
 comprising four coaches in all, overran Netley station by 1½ coach lengths, returning to the station with
 permission. The driver stated that the overrun was due to poor railhead conditions. Mobile Operations
@@ -1388,7 +1388,7 @@ continued as ECS to Gospel Oak. At 1536, however, the South Tottenham signaller 
 driver had stated they did not receive an audible warning for the AWS indication for the signal involved. A
 following driver confirmed that they had received the correct indication. S&T staff were advised. A further
 allegation was made by the driver against the unit, which was taken out of service at Upper Holloway and
-returned as ECS to Willesden TMD for checks.",Blackhorse Road,51.58620755,-0.041245833,E17 6NH
+returned as ECS to Willesden TMD for checks.",Blackhorse Road,51.58620755,-0.041245832999999996,E17 6NH
 2019-08-12,Wales and Western (Western),CCIL 1997342 ,"At 1654 7Z52, DB Cargo, 1452 Southampton Up Yard – Whatley Quarry, passed W303 signal on the Up
 Salisbury line at Warminster at red by one Locomotive length. When questioned, the driver stated they
 were feeling tired (group 2 cause). After consultation with DB Cargo, the driver was judged fit to continue
@@ -1471,7 +1471,7 @@ diverted via Northampton and a Line Blockage of the Down Main line was granted a
 examined the line but were unable to identify the fault and requested a service to be signalled at line
 speed, following the passage of 1D94 Virgin Trains West Coast, 2010 London Euston – Chester with no
 issues reported normal signalling was resumed at 2104.",Roade,52.157068,-0.897062,NN7 2GA
-2019-08-12,Southern (Kent),CCIL 1997207 ,"At 0749, the driver of 9N84, Govia Thameslink Railway, 0552 Littlehampton – Bedford, unit 700142, reported that they were unable to draw AC power at City Thameslink. The train was unable to set back",City Thameslink,51.51394000000001,-0.10358,EC4M 7JH
+2019-08-12,Southern (Kent),CCIL 1997207 ,"At 0749, the driver of 9N84, Govia Thameslink Railway, 0552 Littlehampton – Bedford, unit 700142, reported that they were unable to draw AC power at City Thameslink. The train was unable to set back",City Thameslink,51.51394000000001,-0.10357999999999999,EC4M 7JH
 2019-08-12,Eastern (EM),CCIL 1997315 ,"Fault No. 149427 / At 0710 the West Hampstead Shift Signaller Manager advised No.854 points on the Up and Down Slow
 lines at Harpenden had failed, with no Normal or Reverse detection. The suspected cause was a hydraulic
 leak. S&T staff and a Mobile Operations Manager were sent to site. All services were amended to run on
@@ -1486,7 +1486,7 @@ on the Up line. P’Way staff arrived on site and confirmed at 0609, there was s
 was fit for linespeed. The Shift Signaller Manager advised trains would run at linespeed even though track
 circuit 654 was still failing intermittently. To ease congestion, some services were amended to
 terminate/start at Bathgate. By 0703, track circuit 654 was working correctly, and trains were able to be
-signalled normally.",Edinburgh,55.95238716,-3.188221921,EH1 1BB
+signalled normally.",Edinburgh,55.95238716,-3.1882219210000002,EH1 1BB
 2019-08-12,Scotland,CCIL 1997279 ,"Fault No. 339988 / At 0553 the driver of 1A41, ScotRail, 0530 Edinburgh Waverley – Aberdeen reported that EY677 signal
 on the Down line at North Queensferry changed aspects randomly. The Shift Signaller Manager at
 Edinburgh IECC also reported that track circuit 801 had intermittently failed, so S&T staff were sent to site.
@@ -1503,7 +1503,7 @@ Reading, the option of implementing Pilot working over the Down Reading line was
 deemed to be unfeasible. A rescue locomotive was identified at Maritime and was confirmed to be on route
 at 1934. This was met upon arrival at Basingstoke by the Mobile Operations Manager at 1948, and was
 confirmed as being attached to the rear and the combined train was on the move at 2037. Following the
-arrival at Basingstoke of 4M99, normal signalling was resumed at 2053.",Basingstoke,51.26835654,-1.087259112,RG21 5NB
+arrival at Basingstoke of 4M99, normal signalling was resumed at 2053.",Basingstoke,51.26835654,-1.0872591120000001,RG21 5NB
 2019-08-12,North West and Central (LNWN),CCIL 1997714 ,"At 2144, 5F22 Northern Rail, 2104 Wigan North Western – Allerton formed by units 142011 and 150124
 with four coaches in all, came to a stand on the Down Chat Moss line between Roby and Broad Green
 with loss of air. A block to services from the Manchester direction was imposed and other services were
@@ -1521,14 +1521,14 @@ receding. A 5mph ESR was imposed through the tunnel and services were authorised
 each line at red. At 1146, the Mobile Operations Manager advised that after taking several cab rides
 through the tunnel, the water level had subsided below the railhead. Services then went through the tunnel
 at 20mph but track circuits 697 and 698 remained in a failed state. By 1251, both track circuits had cleared,
-and the water level was low enough to allow linespeed and normal signalling to resume.",Edinburgh,55.95238716,-3.188221921,EH1 1BB
+and the water level was low enough to allow linespeed and normal signalling to resume.",Edinburgh,55.95238716,-3.1882219210000002,EH1 1BB
 2019-08-12,Wales and Western (Western),CCIL 1997622 ,"At 1802, the train manager onboard 2C85, Great Western Railway, 1700 Cardiff Central – Taunton, formed
 by unit LA25, comprising of six coaches in all, reported that following arrival at Parson Street station with
 the leading two coaches platformed as booked, the doors were released and whilst passenger detrained
 the train moved approximately two meters before coming to a stand. No passenger incidents or accidents
 were reported and the Great Western Railway area operations manager who was on board at the time
 spoke to the driver who advised that they had stopped short and then drawn forward without realising the
-doors had been released.",Parson Street,51.43353995,-2.608313932,BS3 5PU
+doors had been released.",Parson Street,51.43353995,-2.6083139319999997,BS3 5PU
 2019-08-13,Eastern (EM),CCIL 1997949 ,"At 0922 the Cricklewood Local Operations Manager (LOM) reported that 6M22, DB Cargo, 0855
 Cricklewood – Calvert, had come into contact with a road vehicle on Jerich’s open crossing, at Cricklewood
 Depot on Network Rail infrastructure. Superficial damage was sustained to the front of the locomotive and
@@ -1553,7 +1553,7 @@ that an elderly passenger had fallen between the train and the platform edge at 
 onto the platform by passengers and platform staff. The member of the public reported that they had not
 been watching their step when they fell, and made no allegation against the train or platform. An
 ambulance was mobilised to attend to the person as a precaution. The incident was reported on arrival at
-destination.",Vauxhall,51.48619345,-0.12287078300000001,SW8 1SS
+destination.",Vauxhall,51.48619345,-0.122870783,SW8 1SS
 2019-08-13,Wales and Western (Western),CCIL 1997938 ,"At 1130 the driver of 2E40, Great Western Railway, 1033 Paignton – Exeter St. David’s, reported a near
 miss at Clapperbrook Footpath Crossing approaching Alphington with a youth who was filming the
 approaching train and jumped clear at the last moment. The driver, who was required to apply the
@@ -1655,7 +1655,7 @@ driver was granted further line blockages to examine the train and a Rolling Sto
 dispatched from Reading to site, permission agreed with Freightliner for the train to draw forward to Bushey
 at no more than 15 mph. At 0020 the RST reported that due to the severe wheel flats the train would only
 able to be moved at 5 mph. A additional locomotive was attached to the train and arrangements made for
-the train to be returned to Wembley Yard.",Harrow & Wealdstone,51.59162038,-0.33407301899999997,HA3 5BP
+the train to be returned to Wembley Yard.",Harrow & Wealdstone,51.59162038,-0.334073019,HA3 5BP
 2019-08-14,Eastern (Anglia),CCIL 1998507 ,"Fault No. 296511/296512. / At 1019, 1F18, Abellio Greater Anglia, 0948 London Liverpool Street – Braintree, formed by unit 321446,
 intermittently failed to operate ‘GM’ and ‘GH’ track circuits on the Down Main line at Brentwood. The train
 was following 4L91, Freightliner, 0210 Trafford Park – Felixstowe, the driver of which reported applying a
@@ -1935,7 +1935,7 @@ locomotive and a driver available at Tyne Yard, which then departed towards the 
 together and departed at 1342. A Mobile Operations Manager was on site to oversee the situation and act
 as a crossing attendant if required. The rescue locomotive and 5E23 proceeded forward to Tyne yard.
 This was delayed due to a points failure at Plessey Crossovers, which was subsequently rectified.
- TRUST 239997 MPHA",Tyne Yard,54.913000000000004,-1.6,NE11 0EX
+ TRUST 239997 MPHA",Tyne Yard,54.913,-1.6,NE11 0EX
 2019-08-15,Wales and Western (Western),CCIL 1998962 ,"Fault No. 447155. / At 0716 the driver of 1C71, Great Western Railway, 0635 London Paddington – Penzance, made a GSMR
 emergency call to report a cow in the Up line cess at the 47 m.p, near Midgham. Following trains were
 cautioned, Mobile Operations Manager and P/Way attended and reported at 0807 that two cows had been
@@ -1953,7 +1953,7 @@ had to be authorised passed signal NW4271 on the Down Arley line. 6J02 had the w
 reported nothing amiss. S&T staff were mobilised to site. The Control Centre Technician at West Midlands
 Signalling Centre advised that after analysing the data download, both track circuits ‘NWCX’ and ‘NWCW2’
 had failed for the passage of 6J02, showing clear when occupied. S&T staff were on site at 0845 to begin
-testing and identified new rail which was rusty at 1029. Further testing by S&T staff continued overnight.",Coleshill Parkway,52.5165359,-1.708183055,B46 1JZ
+testing and identified new rail which was rusty at 1029. Further testing by S&T staff continued overnight.",Coleshill Parkway,52.516535899999994,-1.708183055,B46 1JZ
 2019-08-16,Scotland,CCIL 1999639 ,"Fault No. 340245 / At 1053 the driver of 2C24, ScotRail, 1009 Milngavie – Motherwell, formed by unit 320303, reported an
 AWS Fault Code 7, nothing received at a warning, at GR858 signal on the Up Slow line at Rutherglen East
 Junction. The following service reported no issues, with the AWS indication working correctly. A driver’s
@@ -1997,7 +1997,7 @@ irregularity had occurred involving the signaller for the Charing Cross area. A 
 London Charing Cross had been granted for S&T staff to undertake work on ‘XP’ track circuit. However, a
 unit was berthed in platform 1 at London Charing Cross and the signaller failed to inform the COSS of the
 unit’s presence. There were no ‘Not to move’ boards placed on the unit. The trainee signaller was removed
-from duty for interview.",London Charing Cross,51.50768803,-0.124105728,WC2N 5HF
+from duty for interview.",London Charing Cross,51.50768803,-0.12410572800000001,WC2N 5HF
 2019-08-16,Southern (Sussex),CCIL 1999591 ,"At 0923 the Panel 1 signaller at Victoria ASC inadvertently replaced VC532 signal on the Up Brighton Slow
 line at London Victoria to red in front of 2F11, Govia Thameslink Railway, 0828 London Bridge – London
 Victoria. The driver was unable to stop and passed the signal at red. The driver was fit to continue when
@@ -2065,7 +2065,7 @@ to resume from 1745.",Portsmouth Harbour,50.79694873,-1.10783895,PO1 3PA
 failure on the Down Fast line at Norton Bridge, between Stoke-On-Trent and Stafford. This affected
 multiple axle counters and multiple signals. Services travelling in the Down direction were diverted onto
 the Down Slow line. S&T staff were sent to site, arriving at 0846 and they advised that all the axle counters
-had reset at 0905, with the aspect restrictions removed by passing services.",Norton Bridge,52.86671919,-2.190546498,ST15 0XY
+had reset at 0905, with the aspect restrictions removed by passing services.",Norton Bridge,52.86671919,-2.1905464980000002,ST15 0XY
 2019-08-16,North West and Central (LNWS),CCIL 1999596 ,"Fault No. 862386 / At 0936, the Shift Signaller Manager at West Midlands Signalling Centre advised that track circuit ‘SY126’
 on the Down Gloucester line between Five Ways and Birmingham University had failed, holding SY56
 signal at red. S&T staff were sent to site, whilst services were authorised passed SY56 signal at red. S&T
@@ -2140,7 +2140,7 @@ Scotrail, 0944 Inverness – Edinburgh Waverley on the Up Highland Main line. Th
 line blockage was granted on the Down line from BA32 and BA31 signals from 1055 until 1200. The driver
 reported nothing amiss. The Mobile Operations Manager was requested to investigate. Voice
 communications between the staff and the signaller and staff reports were requested. Staff confirmed that
-they were unfamiliar with the area and had accessed the line via the Up vice the Down.",Blair Atholl,56.7655294,-3.8502175530000002,PH18 5SL
+they were unfamiliar with the area and had accessed the line via the Up vice the Down.",Blair Atholl,56.7655294,-3.850217553,PH18 5SL
 2019-08-17,Region / Route Train Since Between OUTCOME,CCIL ,"Service trapped behind a failed 2H17, South Western Railway,",Region / Route Train Since Between OUTCOME,,,
 2019-08-17,Eastern (EM),CCIL 2000117 ,"At 0802 the driver of 1F02, East Midlands Trains, 0548 London St. Pancras – Sheffield, reported a
 distressed trespasser between Belper and Ambergate. Trains were cautioned through the area, with the
@@ -2196,7 +2196,7 @@ both west end detector tunnels.",Eastern (LNE York),,,
 2019-08-17,Scotland,CCIL 2000124 ,"Fault No. 340293 / At 0825, the driver of 1E11, 0752 Aberdeen London King’s Cross, reported that HT354 signal on the Up
 Loop at Slochd had reverted from green to red as the train approached. The driver was unable to stop and
 passed the signal at red. There reason for the reversion was due to a track circuit failure. The driver was
-fit to continue.",Slochd,57.2794,-3.8280000000000003,PH23 3AZ
+fit to continue.",Slochd,57.2794,-3.828,PH23 3AZ
 2019-08-17,Eastern (EM),CCIL 200099 ,"At 0712 the driver of 6G67, Freightliner Heavyhaul, 0533 Tunstead – Small Heath, hauled by locomotive
 66602, reported being at a stand due with a ‘loss of power’ light illuminated, on the Up Main line inside
 Bradway tunnel, between Sheffield and Chesterfield. The driver advised at 0729 that they had reset the
@@ -2206,7 +2206,7 @@ updated at 0742 that the driver was still fault finding and by 0750 6G67 was on 
 221102 and 221113, reported an issue with the traction motors on the leading unit, with the driver speaking
 to their maintenance control. Virgin Trains West Coast requested at 1353 to swap the units and services
 over at Lancaster with their 1M12, 1140 Glasgow Central – London Euston. This caused considerable
-reactionary delay to other services awaiting a platform at Lancaster.",Lancaster,54.04855789,-2.8079099139999997,LA1 5NW
+reactionary delay to other services awaiting a platform at Lancaster.",Lancaster,54.04855789,-2.807909914,LA1 5NW
 2019-08-17,Southern (Wessex),CCIL 1999967 ,"With reference to the item in this section of yesterday’s report regarding 2O98 striking a tree at Dorchester
 West; 2O98 arrived back at Weymouth at 0221, 191 minutes late. P’Way staff advised that they had
 imposed a 5 mph ESR over the affected area at 0242. Inspections by Amey Earthworks and Structures
@@ -2230,7 +2230,7 @@ move as ECS to Wimbledon Depot at 1035, allowing normal signalling to resume.",E
 Alexandra Palace and New Southgate to red in front of 1N94, Grand Central, 1648 London Kings Cross -
 Sunderland, after receiving a report of an intoxicated individual at New Southgate. The driver was unable
 to stop and passed the signal at red by a full train length. The driver was fit to continue when the
-circumstances were explained.",London Kings Cross,51.53088842,-0.12292134199999999,N1 9AL
+circumstances were explained.",London Kings Cross,51.53088842,-0.122921342,N1 9AL
 2019-08-17,Eastern (EM),CCIL 2000423 ,"At 1715, it was reported that the train manager onboard 2S25, East Midlands Railway, 1645 Nottingham
 Skegness, inadvertently released the local door on departure from Bottesford station resulting in a brake
 demand, a ‘for cause’ screening was arranged for the train manager.",Eastern (EM),,,
@@ -2271,7 +2271,7 @@ deemed the incident an unexplained death. The Main lines were authorised to reop
 of Crime Officer arrived on site at 1530 to commence forensic recovery. 2T37 was authorised to proceed
 at 1559. The BT Police handed back the lines at 1658, following which, the RIO undertook a final site tidy
 up allowing normal signalling to resume from 1712. Samaritans signage and anti-trespass signs were
-confirmed as not in place at 1831. Temporary signs are planned to be erected in the coming days.",West Ealing,51.51364043,-0.319783629,W13 0NQ
+confirmed as not in place at 1831. Temporary signs are planned to be erected in the coming days.",West Ealing,51.51364043,-0.31978362899999996,W13 0NQ
 2019-08-18,Southern (Sussex),CCIL 2000854 ,"At 2301 the driver of 2H69, Govia Thameslink Railway, 2235 London Bridge – Norwood Junction, reported
 a possible body on the Down Crystal Palace line at West Norwood. All lines were blocked, Emergency
 services and Network Rail staff attended at 2331. Services were diverted via Streatham Common and
@@ -2313,7 +2313,7 @@ correct.",Bog Hall,54.482352,-0.613965,O21 1TH
 2019-08-18,Eastern (LNE York),CCIL 2000834 ,"At 2115 the driver of 2S94, Northern Rail, 2048 Bradford Forster Square – Skipton, reported a near miss
 at Kildwick CCTV Level Crossing with a member of the public. The person was seen to vault over the
 barriers and into the path of the approaching train. The driver brought the train to a stand by applying the
-emergency brake. The driver was fit to continue. The BTP (ref. 505) were advised.",Kildwick,53.90366,-1.983118,D20 7DS
+emergency brake. The driver was fit to continue. The BTP (ref. 505) were advised.",Kildwick,53.903659999999995,-1.983118,D20 7DS
 2019-08-18,Eastern (EM),CCIL 2000847 ,"At 2235 1F74, East Midlands Railway, 2040 London St. Pancras – Leeds, formed by set NL12, comprising
 ten coaches in all, overran East Midlands Parkway station by one train length, returning to the station with
 permission. The driver stated that the overrun was due to forgetting the booked station stop. The driver
@@ -2345,7 +2345,7 @@ line was safe for the passage of trains with the first service authorised throug
 pantograph of 5G78 was requested from Govia Thameslink Railway at 0441. The pantograph was
 examined on arrival at Bedford, with no damage found. OHL staff stated at 0538 that they had discovered
 fresh bird remains but could not confirm that this was the cause of the original tripping. At 0614 trains were
-authorised to run normally after one service had been watched through the area without incident.",Leagrave,51.90517,-0.45851,LU4 9BA
+authorised to run normally after one service had been watched through the area without incident.",Leagrave,51.90517,-0.45851000000000003,LU4 9BA
 2019-08-19,North West and Central (LNWN),CCIL 2000222 ,"Fault No. 862513 / With reference to the incident in this section of yesterday’s Report regarding the wrong side failure at
 Brindle Heath: S&T staff on site completed diversion of circuits affected by the defective cable cores and
 associated testing by 0349, whilst Northern and Transpennine Express Controls were asked to divert
@@ -2358,7 +2358,7 @@ at Moy (Sc WON 21, item 144922 refers). Following trains were cautioned, the dri
 1854 Inverness – Edinburgh Waverley, reported that there was no portable magnet in position at the
 commencement board in the Up direction and at the warning board in the Down direction. P/Way attended
 and reported at 2050 that all the magnets were correctly in place. Unit 170428 will be examined on return
-to Haymarket Depot.",Moy,52.690521999999994,-1.790155,S13 8ND
+to Haymarket Depot.",Moy,52.690522,-1.790155,S13 8ND
 2019-08-19,Scotland,CCIL 2001353 ,"At 2055, the signaller at Dalwhinnie reported that they had observed 1H17, ScotRail, 1742 Edinburgh
 Waverley – Inverness, accelerating on approach to DW7, the semaphore signal in the Down direction at
 the exit from the Up Main line, which protects the single line section to Kingussie, with the signal ‘On’ and
@@ -2406,7 +2406,7 @@ interview and ‘for cause’ screening.",Three Bridges ASC,51.11691722,-0.16118
 formed by units 375824 & 375808, comprising eight coaches in all, stopped the train at the ‘four-car stop’
 marker and released all the doors. The error was realised and corrected, with no passenger incidents
 reported. The train was terminated at Kearsney and sent ECS to Faversham, where the driver was met on
-arrival.",Kearsney,51.148999999999994,1.272,CT17 0RN
+arrival.",Kearsney,51.149,1.272,CT17 0RN
 2019-08-19,Region / Route Train Since Between OUTCOME,CCIL ,08 SIGNIFICANT POSSESSION PROBLEMS,Region / Route Train Since Between OUTCOME,,,
 2019-08-19,North West and Central (LNWS),CCIL 2001185 ,"At 1435, it was advised that 9M53, Virgin Trains West Coast, 1000 Glasgow Central – London Euston was
 at a stand in platform 1 at Coventry due to an ill passenger onboard. Ambulance staff were sent to site but
@@ -2473,7 +2473,7 @@ supply cut in. Technical Signal Reversion SPARs as a result of the loss of suppl
 Cross, reported that they had passed TL396 signal on the Up line approaching West Wickham which was
 showing blank, with the preceding signal, TL400 at the exit from platform 1 at Hayes, having displayed a
 green aspect. Following trains were cautioned, S&T attended at 2010 and commenced testing, which was
-ongoing as this Report closed.",West Wickham,51.38130201,-0.014425183000000001,BR4 0EH
+ongoing as this Report closed.",West Wickham,51.38130201,-0.014425183,BR4 0EH
 2019-08-19,Scotland,CCIL 2000923 ,"Fault No. 340368 / At 0507, Aberdeen Signalling Centre advised that axle counter ‘AC302’ on the Up line between Aberdeen
 and Stonehaven was showing occupied after WON 21, Item 306 Carmont LC & SB – Aberdeen, Down
 and Up line, Craiginches Down Siding/Up Yard (0030 Mon – 0505 Mon), Route Business Scotland East
@@ -2481,7 +2481,7 @@ possession was given up. S&T staff were sent to site, arriving at 0700. After a 
 testing, faulty cable was identified and S&T staff on site arranged for 25m of axle counter cable to be
 delivered. This was replaced by 1003 but did not rectify the fault. S&T staff then replaced the axle counter
 heads and successfully reset them, with a following service clearing the affected section, allowing trains
-to be signalled normally from 1215.",Aberdeen,57.14304825,-2.0974804959999998,AB11 6LX
+to be signalled normally from 1215.",Aberdeen,57.14304825,-2.097480496,AB11 6LX
 2019-08-19,Wales and Western (Wales),CCIL 2001101 ,"Fault No. 447473 / At 1213 the Shift Signaller Manager at South Wales Signalling Centre reported that axle counters ‘KZH’
 and ‘KZG’ had failed at Cardiff West Junction. S&T were advised and on site at the access point by 1248.
 BT Police (ref. 257) were advised at 1257 in case of any overcrowding issues. At 1302 ‘KZH’ axle counter
@@ -2493,7 +2493,7 @@ to reduce congestion. S&T successfully reset the axle counters at 1540, allowing
 normally from 1556. However, the axle counters failed again at 1600 and were unable to be reset. S&T
 advised at 1639 that they required a 30-minute blockage of the Down Main line, with services to be diverted
 via the Down Relief. The Line Blockage was granted at 1710 and given up at 1737, with the axle counters
-restored. Degraded working was withdrawn at 1805.",Moreton,50.700953999999996,-2.3130669999999998,DT2 8BB
+restored. Degraded working was withdrawn at 1805.",Moreton,50.700954,-2.313067,DT2 8BB
 2019-08-19,Eastern (LNE York),No CCIL ,"An incident was created for 5P14, TransPennine Express, 0512 Newcastle – Middlesbrough, which was
 cancelled due to having no available driver. Significant reactionary delays were accumulated throughout
 the day.",Eastern (LNE York),,,
@@ -2521,7 +2521,7 @@ with Scotland Train Running Control. BT Police (ref. 424) reported at 1827 that 
 statement from the driver, they had deemed the incident a non-suspicious deliberate act. The body was
 moved clear into the station and both lines reopened at 1908; Dignity Funeral services gave an estimate
 of 1930 for their arrival, and arrived on site at 1950 to collect the body. Samaritans signage and anti-
-trespass signs were confirmed as in place at 2000.",Berwick,50.840251,0.166117,N26 6TA
+trespass signs were confirmed as in place at 2000.",Berwick,50.840251,0.16611700000000001,N26 6TA
 2019-08-20,Wales and Western (Wales),CCIL 2001666 ,"Fault No. 447557 / At 1335 the driver of 1W66, Transport for Wales, 1308 Milford Haven – Manchester Piccadilly, reported a
 near miss at Shoals Hook private level crossing, between Clarbeston Road and Clunderwen, with a tractor
 and trailer crossing in front of the train. The driver made an emergency brake application and brought the
@@ -2548,7 +2548,7 @@ platform 1. Emergency services and a Mobile Operations Manager were sent to site
 advised at 1246 that the person did not have serious injuries and was being treated by paramedics. They
 also reported that the incident was being treated as an attempted suicide, as the individual appeared to
 make no attempt to stop before reaching the platform edge. At 1255, it was advised that all personnel were
-clear of the line, allowing train to be signalled normally from 1258.",Bicester North,51.90349153,-1.150376878,OX26 6EF
+clear of the line, allowing train to be signalled normally from 1258.",Bicester North,51.90349153,-1.1503768779999999,OX26 6EF
 2019-08-20,North West and Central (LNWN),CCIL 2001698 ,"At 1446, Greater Manchester police advised there was a person lineside near Collyhurst Tunnel, between
 Manchester Victoria and Miles Platting Junction. A stop to all traffic was put in place at 1459 and services
 were held at Manchester Victoria. A Mobile Operations Manager was sent to site and reported at 1519
@@ -2596,7 +2596,7 @@ empty FYA & FAA wagons, 164 tonnes trailing. GBRf were advised at 1204 and reque
 CCTV footage from the locomotive. At 1222 it was reported that the asset had failed three times in the last
 month. S&T staff contacted the member of the public, who stated that the barriers had actually started to
 raise after the locomotive had passed over the crossing. Minor contamination was found on the wheels of
-two wagons, and the railhead was found to be rusty. Testing was ongoing at close of Report.",Tavells Lane,50.891465000000004,-1.460733,O40 4WX
+two wagons, and the railhead was found to be rusty. Testing was ongoing at close of Report.",Tavells Lane,50.891465,-1.460733,O40 4WX
 2019-08-21,Eastern (Anglia),CCIL 2002123 ,"At 1010, 5V00 Greater Anglia, 0912 Colchester Carriage Sidings – Ilford carriage sidings, passed L361
 signal on the Departure Line at Ilford Carriage Sidings at red by ¼ of a coach length. When questioned,
 the driver stated they failed to observe the signal (group 2 cause). After consultation with Greater Anglia,
@@ -2680,7 +2680,7 @@ the Up Main line with a brake fault. Further congestion was caused at Liverpool 
 not signing the diversionary route and so becoming trapped. Arrangements were made for 1H41, Northern
 Rail, 1616 Liverpool Lime Street – Manchester International Airport to be taken out of service at Liverpool
 South Parkway on arrival at 1701, and used to assist. The assisting unit entered section to assist at 1750,
-and the combined trains were on the move at 1834.",Liverpool South Parkway,53.35758121,-2.8892940389999997,L19 5NE
+and the combined trains were on the move at 1834.",Liverpool South Parkway,53.35758121,-2.889294039,L19 5NE
 2019-08-21,Eastern (LNE York),CCIL 2002137 ,"At 1025 1N90, Grand Central, 0806 London King’s Cross – Sunderland, activated Sessay Down Fast line
 WILD with axle 20 RHS wheel flat, 358 kN, level 2 alarm. The train was stopped, and the driver advised
 to proceed at 50 mph to destination for RST examination. The unit, 180104, (affected vehicle 59904) was
@@ -2712,7 +2712,7 @@ the driver stated having observed and obeyed adjacent signal L267 on the Down El
 cleared to a single yellow (group 3 cause). After consultation with Greater Anglia, the driver was judged fit
 to continue to Stratford at 2017 where the train was taken out of service. The driver was authorised to then
 work the train forward as ECS to Ilford Depot for relief. The 12 coach train (units 321314, 321330 & 321433)
-departed Stratford at 2048.",Stratford,51.54169258,-0.003751641,E15 1AZ
+departed Stratford at 2048.",Stratford,51.54169258,-0.0037516409999999996,E15 1AZ
 2019-08-22,Eastern (LNE-York),CCIL 2002505 ,"At 0305, GBRf advised that a derailment had occurred within Guardian Glass Sidings at Goole. Locomotive
 66779 became derailed by two axles on handpoints. The incident did not occur on Network Rail
 infrastructure and GBRf managed the incident to conclusion.",Goole,53.70492908,-0.874218535,DN14 5DD
@@ -2731,7 +2731,7 @@ reported.",Hockley,51.60356168,0.65901386,SS5 4BG
 2019-08-22,Eastern (LNE-York),CCIL 2002715 ,"At 1238, York TRC advised that 2C29, Govia Thameslink Railway, 1127 Cambridge – London King’s
 Cross had stopped short at Hatfield and released the doors. No passengers attempted to alight the
 service. The driver proceeded forward to the correct position within the platform and was later met
-on arrival at London King’s Cross.",Hatfield,51.764,-0.21600000000000005,AL9 5AB
+on arrival at London King’s Cross.",Hatfield,51.763999999999996,-0.21600000000000005,AL9 5AB
 2019-08-22,Scotland,CCIL 2002813 ,"At 1555 the signaller at Laurencekirk SB inadvertently replaced LK20 signal on the Down Main line at
 Laurencekirk to red in front of 1A67, ScotRail, 1339 Glasgow Queen Street – Aberdeen. The driver was
 unable to stop and passed the signal at red. The driver was fit to continue when the circumstances were
@@ -2761,7 +2761,7 @@ was summoned. Trains were cautioned, with nothing reported amiss at 0534.",Easte
 2019-08-22,North West and Central (LNWN),CCIL 2002739 ,"At 1314 the driver of 1D36, Transport for Wales, 1136 Manchester Airport – Llandudno, reported a near
 miss at Shotton Low Station with a youth. The person was sat on the platform edge with their legs hanging
 over the track. The driver had to apply the emergency brake but was fit to continue. The BT Police were
-advised (ref. 274).",Shotton,53.2125552,-3.038434376,CH5 1BX
+advised (ref. 274).",Shotton,53.212555200000004,-3.038434376,CH5 1BX
 2019-08-22,Eastern (LNE York),CCIL 2002868 ,"At 1746 the driver of 1G20, Northern, 1736 Hull – Scarborough, reported a near miss between Walton
 Street LC CCTV and Cottingham with a person standing in the track. The person ran across the track and
 was seen hiding behind a location case. The driver was fit to continue. The BT Police (ref. 468) were
@@ -2807,7 +2807,7 @@ BT Police were on site at 1605 and a Police negotiator arrived at 1635 but the i
 uncommunicative with the negotiator. At 1652 the Civil Police undertook arrangements to close the road
 below the viaduct. Plans were in place for two locomotives at York to be utilised for diversions via the
 Durham Coast if required. At 1655 the individual climbed from the viaduct wall and proceeded to the
-officers and following confirmation that all staff clear of the line normal signalling was resumed at 1658.",Darlington,54.52045136,-1.547328479,DL1 4AA
+officers and following confirmation that all staff clear of the line normal signalling was resumed at 1658.",Darlington,54.52045136,-1.5473284790000001,DL1 4AA
 2019-08-22,Southern (Wessex),CCIL 2002689 ,"At 1140 2L29, South Western Railway, 1112 London Waterloo – Basingstoke, formed by units 450115,
 450076 & 450124, comprising 12 coaches in all, overran Walton-on-Thames station by two coach lengths.
 The driver was instructed to continue to the next station with no doors released. The driver stated that the
@@ -2890,7 +2890,7 @@ returned to normal operation.",Wales and Western (Wales),,,
 line (Up direction) at Reading Kennet Bridge Junction at red by 100 yards. When questioned, the driver
 stated having read T1676 signal on the Up Relief line in error (group 3 cause). After consultation with DB
 Cargo, the driver was judged fit to continue and was met on arrival at Southall Yard.
- TRUST 261526 FWAS",Southall,51.50596158,-0.37861308299999996,UB2 4AA
+ TRUST 261526 FWAS",Southall,51.50596158,-0.378613083,UB2 4AA
 2019-08-23,Southern (Sussex),CCIL 2003221 ,"At 1012 the driver of 1M39, Govia Thameslink Railway, 0948 Brighton – London Victoria, formed by units
 387227, 387225 & 387219, comprising 12 coaches in all, brought the train to a stand short in platform 4
 at Gatwick Airport with the rear four coaches not accommodated in the platform and released all doors on
@@ -2938,7 +2938,7 @@ Police gave authority for recovery of the remains to commence. The Down Slow lin
 had sustained a 750v electric shock after coming into contact with electrical equipment on the unit that
 was live as a unit jumper cable had not been removed prior to work commencing. The fitter was conveyed
 to hospital for assessment, the shunter and the person responsible for depot protection were both relieved
-of duty.",Slade Green,51.46778867,0.19050442199999998,DA8 2NX
+of duty.",Slade Green,51.46778867,0.190504422,DA8 2NX
 2019-08-23,North West and Central (LNWS),CCIL 2003261 ,"At 1135 the driver of 2I57, West Midlands Trains, 1046 Rugeley Trent Valley – Birmingham International,
 reported a near miss with a person on the Up line between Soho East Junction and Perry Barr West
 Junction. The driver was fit to continue. The BTP (ref. 206) were advised. A Mobile Operations Manager
@@ -2948,7 +2948,7 @@ services were signalled normally from 1220.",North West and Central (LNWS),,,
 River Authority UWC, between Haddiscoe and Reedham, with a postal worker who crossed as the train
 approached. The driver was fit to continue. The BTP (ref. 273) were advised. Arrangements were made
 for the night -shift Mobile Operations Manager to attend to check the crossing. At 1959 the Mobile
-Operations Manager confirmed that the crossing equipment and signage was in order.",Haddiscoe,52.52889004,1.6224111159999999,NR31 9JA
+Operations Manager confirmed that the crossing equipment and signage was in order.",Haddiscoe,52.52889004,1.622411116,NR31 9JA
 2019-08-23,Southern (Wessex),CCIL 2003531 ,"Fault No. 450197. / At 1929 the driver of 5Y55, South Western Railway, 1915 Epsom – Wimbledon Depot, reported a near
 miss at Lady Howard UWC, near with Epsom, with a person who was wearing headphones walking across
 the crossing in front of the train. The driver was shaken by the incident / fit to continue. The BTP (ref. 545)
@@ -2959,7 +2959,7 @@ a near miss at Charlemont Road foot LC (R/G) between Hamstead and Tame Bridge Pa
 individual standing on the crossing, the person stepped clear of the crossing as the train approached. The
 driver was fit to continue to Walsall where they were met by the driver manager. The BTP (ref. 613) were
 advised. A Mobile Operations Manager attended and confirmed all signage correct and mini lights working.
- TRUST 263242 XQRB",Charlemont Road,52.543682999999994,-1.967655,B71 3SU
+ TRUST 263242 XQRB",Charlemont Road,52.543683,-1.967655,B71 3SU
 2019-08-23,Southern (Sussex),CCIL 2002914 ,"At 2122 (Thu) the driver of 2F64, Govia Thameslink Railway, 2050 (Thu) London Victoria – London Bridge
 reported that youths had alighted from the train at Gipsy Hill station, walked off the end of the platform
 ramp and into lineside bushes. The driver was unwilling to proceed even at caution. A Mobile Operations
@@ -2981,7 +2981,7 @@ road traffic built up. At 0508, it was reported that a van had struck and remove
 whilst attempting to turn-round. Trains continued to run, passing affected signals at red. South Yorkshire
 Police had already been summoned in view of the earlier crossing failure. The BT Police were also advised,
 (ref. 64). By 0551, the barrier had been refitted and normal operation of the crossing was resumed at 0611
-after testing was completed.",Thorne South,53.60379593,-0.9546375090000001,DN8 5QN
+after testing was completed.",Thorne South,53.60379593,-0.954637509,DN8 5QN
 2019-08-23,North West and Central (LNWS),CCIL 2003200 ,"At 0924 the West Midlands Signalling Centre were advised of a trespasser on the tracks at Banbury. The
 BT Police (ref. 149) were advised and a block to traffic was imposed with Marylebone IECC and Oxford
 Workstation. A Mobile Operations Manager arrived on site and reported at 0937 that the person was
@@ -3005,7 +3005,7 @@ on arrival at Clapham Junction at 2242, the person was taken into custody by the
 of trains ceased.",Clapham Junction,51.46419065,-0.17024735100000002,SW11 2QP
 2019-08-23,Southern (Wessex),CCIL 2003515 ,"At 1853 2K49, South Western Railway, 1727 London Waterloo – London Waterloo, formed by units
 455740 & 455729, comprising eight coaches in all, failed to call at Vauxhall station. The driver stated that
-the overrun was due to forgetting that the train was booked to call whilst concentrating on the signals.",Vauxhall,51.48619345,-0.12287078300000001,SW8 1SS
+the overrun was due to forgetting that the train was booked to call whilst concentrating on the signals.",Vauxhall,51.48619345,-0.122870783,SW8 1SS
 2019-08-23,North West and Central (LNWS),CCIL 2003254 ,"Fault No. 863130 / At 1130 the driver of 9F42, West Midlands Trains, 0949 London Euston – Liverpool Lime Street reported
 a track defect on the Down Coventry line at Long Lawford Junction. P’Way staff were advised and sent to
 site. Services were cautioned through the area and after observing several services through the area and
@@ -3087,7 +3087,7 @@ Railway the driver was judged fit to continue as far as Salisbury T&RSMD, being 
 signal is listed as a Multiple SPAD signal in the most recent Railway Group Safety Performance Report,
 last incident on 21/02/2018. The total number of previous incidents since 1985 is 3, with 2 having occurred
 within the last five years. All concerned were advised in accordance with NOC 4450 from 2125, (ref.
-NOC4450/517).",Salisbury,51.07054404,-1.806389093,SP2 7RS
+NOC4450/517).",Salisbury,51.07054404,-1.8063890930000002,SP2 7RS
 2019-08-24,North West and Central (LNWS),CCIL 2003785 ,"At 0849 the driver of 1U16, West Midlands Trains, 0624 Crewe – London Euston, reported that WM110
 signal on the Up Fast line at Camden had reverted from green to red as the train approached. The driver
 was unable to stop and passed the signal at red. There reason for the reversion was that the signaller at
@@ -3138,7 +3138,7 @@ issues and other commitments P’Way staff were unavailable to attend until 1200
 due to other existing defects in the area with the signaller having to advise drivers to traverse three defects
 at 50 mph as well as cautioning at 20 mph for recently reported defect, all within a five mile section on the
 Up Main line. Following remedial work linespeed was restored at 1419 after a number of services were
-monitored through the section without incident.",Hinton Admiral,50.75262651,-1.714128129,BH23 7DW
+monitored through the section without incident.",Hinton Admiral,50.75262651,-1.7141281290000001,BH23 7DW
 2019-08-24,North West and Central (LNWN),CCIL 2003865 ,"At 1220 the driver of 2H07, Northern Rail, 1127 Blackpool North – Hazel Grove, formed by unit 319361
 advised that the train was at a stand at Chorley station with a loss of power. By 1233 the driver advised
 they were unable to rectify the fault and declared the train a failure. 2J46, Northern Rail, 1204 Preston –
@@ -3185,7 +3185,7 @@ discovered that four earthing straps had been left in position by mistake. The s
 structures GE33/33 and GE 33/32 in the Curriehill area. This error was realised after the possession was
 handed back to Cathcart ECO and the sections did not power up. A Line Blockage was taken to remove
 the earthing straps and was then handed back at 0930, allowing trains to be signalled normally.
- TRUST 266970 CQLB",Edinburgh,55.95238716,-3.1882219210000002,EH1 1BB
+ TRUST 266970 CQLB",Edinburgh,55.95238716,-3.188221921,EH1 1BB
 2019-08-25,Region / Route Train Since Between OUTCOME,CCIL ,"1B97, Transport for Wales, 1240 Fishguard Harbour –",Region / Route Train Since Between OUTCOME,,,
 2019-08-25,Eastern (LNE York),CCIL 2004272 ,"At 0753 2J54, TransPennine Express, 0753 Leeds – Huddersfield, formed by unit 185123, comprising
 three coaches in all, overran Cottingley station by one train length, returning to the station with permission.
@@ -3245,7 +3245,7 @@ previously were examined and forward-facing CCTV footage reviewed to identify th
 a non-suspicious deliberate act and had commenced recovery of the body. The body was removed, the
 site cleared and all lines reopened at 0815. Undertakers gave an estimate of their arrival of 0815 and
 arrived on site at 0830. Samaritans signage and anti-trespass signs were confirmed not to be in place at
-the access point where the deceased was believed to gain access to the railway.",Keynsham,51.41716993,-2.494633256,BS31 2BN
+the access point where the deceased was believed to gain access to the railway.",Keynsham,51.41716993,-2.4946332559999997,BS31 2BN
 2019-08-26,Southern (Wessex),CCIL 2004790 ,"At 0841 the driver of 1W94, South Western Railway, 0655 Weymouth – London Waterloo, reported that
 the train had struck a person on the Up Fast line at Eastleigh. The driver brought the train to a stand with
 the person under the fourth coach suffering from multiple injuries, from which they succumbed at 0900. All
@@ -3258,14 +3258,14 @@ was isolated to allow the train to be drawn clear. The body was removed from the
 restored at 1007. A further discharge of the traction current took place at 1036, allowing for the remaining
 recovery to take place. This was completed with normal working resumed at 1055. Undertakers gave an
 estimate of their arrival of 1000 and arrived on site at 0955. Samaritans signage and anti-trespass signs
-were confirmed as in place at 1029.",Basingstoke,51.26835654,-1.087259112,RG21 5NB
+were confirmed as in place at 1029.",Basingstoke,51.26835654,-1.0872591120000001,RG21 5NB
 2019-08-26,Wales and Western (Western),CCIL 2005006 ,"At 1559 the driver of 1M93, CrossCountry, 1406 Paignton – Manchester Piccadilly, reported that the train
 had struck a person on the Up Main line at Parson Street station. Both lines were blocked, Emergency
 services and Network Rail staff attended. BT Police (ref.415) reported at 1615 that having obtained
 statements from the driver and a witness, they had deemed the incident a non-suspicious deliberate act.
 The body was removed from the line by 1655, allowing the Down Main line to reopen. Not stopping at
 Parsons Street. All other lines were reopened by 1659 and were able to stop at Parsons Street after the
-body had been collected by the Undertakers.",Parson Street,51.43353995,-2.608313932,BS3 5PU
+body had been collected by the Undertakers.",Parson Street,51.43353995,-2.6083139319999997,BS3 5PU
 2019-08-26,Wales and Western (Wales),CCIL 2005051 ,"At 1731 the driver of 2J15, Transport for Wales 1456 Machynlleth – Pwllheli, reported a near miss at
 Blackrock Halt FP crossing, between Porthmadog and Pwllheli with a group of persons. The driver applied
 the emergency brake with the group then moving clear and were seen to leave the railway. The driver was
@@ -3290,7 +3290,7 @@ regarding a signal fault. The driver was fit to continue.",Eastern (LNE York),,,
 reported that TD4419 signal on the Down Erewash line at Sheet Stores Junction, between
 Nottingham and Derby, had reverted from green to red as the train approached. The driver was
 unable to stop and passed the signal at red. The reason for the reversion was due to 747A points
-failing. The driver was fit to continue.",Sheet,51.016118,-0.925403,U32 2AT
+failing. The driver was fit to continue.",Sheet,51.016118,-0.9254030000000001,U32 2AT
 2019-08-26,Eastern (LNE York),CCIL 2005127,"Fault No. 767739 / At 2014 the driver of 2R59, Govia Thameslink Railway, 1917 Royston – London King’s Cross,
 reported that K444 signal on Up Slow No.1 line at Hornsey had reverted from green to red as the
 train approached. The driver was unable to stop and passed the signal at red. The reversion was
@@ -3324,7 +3324,7 @@ tested by 2358. The cable was re-energised at 0024 and remained stable. Further 
 to be confirmed.",Kilburn High Road,51.53736721,-0.191870923,NW6 5UA
 2019-08-26,Eastern (Anglia),CCIL 2004868 ,"Fault No. 297216 / At 1139 the Mobile Operations Manager sent to investigate a smell of burning between Camden Road
 station and Camden Road East Junction reported a fire under the decking of rail over bridge No.95. Both
-lines were blocked, P/Way and S&T attended. The fire brigade was called at 1236 and arrived on site at",Camden Road,51.54194816,-0.139772041,NW1 9LS
+lines were blocked, P/Way and S&T attended. The fire brigade was called at 1236 and arrived on site at",Camden Road,51.54194816,-0.13977204099999999,NW1 9LS
 2019-08-27,Scotland,CCIL 2005467 ,"Fault No. 340822 / At 1142 the driver of 2G32, ScotRail, 1108 Gourock – Glasgow Central, formed by unit 380017, reported
 an AWS Fault Code 7, nothing received at a warning, at a 50 mph ESR warning board on the Up Gourock
 line at Woodhall station. S&T staff arranged for the AWS magnet to be inspected. Normal signalling was
@@ -3335,7 +3335,7 @@ formed of unit 395022, reported an AWS Fault Code 7, nothing received at a warni
 Up North Kent line; one near Hoo Junction and the other at Milton Range foot crossing. The driver of the
 next service was cautioned and reported having received the correct indications. The train was taken out
 of service on return to Ashford International. S&T and P’Way staff attended and replaced both AWS
-magnets by 1924.",Milton Range,51.438575,0.41929799999999995,A12 2NY
+magnets by 1924.",Milton Range,51.438575,0.419298,A12 2NY
 2019-08-27,Wales & Western (Western),CCIL 2003711 ,"At 0148 (Tue) Great Western Railway unit 165128 passed D44 signal on Shed Road No.2 (West End)
 within Reading Traincare depot at red by one coach, with the unit becoming derailed at the derailer
 protecting Shed Road No. 2. The incident did not occur on Network Rail infrastructure and was managed
@@ -3392,7 +3392,7 @@ Scenes of Crimes Officers to carry out investigations. The attendance of the und
 at 1400 and Dignity Funerals were called at 1408, reporting at 1500 that their representatives had been in
 contact with the RIO and had agreed a response time of within the hour once they had been advised that
 the site was ready. The investigations were completed, the body moved clear to await the agreed arrival
-time of the undertakers at 1715 and both lines reopened at 1700.",Salisbury,51.07054404,-1.8063890930000002,SP2 7RS
+time of the undertakers at 1715 and both lines reopened at 1700.",Salisbury,51.07054404,-1.806389093,SP2 7RS
 2019-08-27,Eastern (Anglia),CCIL 2005508 ,"Fault No. 297285. / At 1419 the driver of 2F54, Greater Anglia, 1338 London Liverpool Street – Colchester Town, reported
 that the train had struck a person on the Down line in the vicinity of Arbour Lane bridge, Chelmsford. Both
 lines were blocked, Emergency services attended at 1445 and Network Rail staff attended at 1453. The
@@ -3420,7 +3420,7 @@ that all staff were clear, the normal passage of trains resumed at 1525.",Manche
 377306 & 377303, comprising 10 coaches in all, failed to call at Streatham Hill station. The incident was
 not reported by the driver, but by a passenger, with station staff and station CCTV recording confirming
 the event. The driver was met on return to Norwood Junction. The results of the driver interview were
-awaited at close of Report.",Streatham Hill,51.438346100000004,-0.128157209,SW2 4SA
+awaited at close of Report.",Streatham Hill,51.4383461,-0.128157209,SW2 4SA
 2019-08-27,Eastern (LNE York),CCIL 2005431 ,"Fault No. 767823 / At 1032 P’Way Ultrasonics staff advised a category 1B track defect had been identified on the right-hand
 switch rail of No.2280A points on the Up Fast at Cadwell, between Arlesey and Hitchin. A 20 mph ESR
 was imposed and services were cautioned through the area on the Up Fast line. By 1201, it was confirmed
@@ -3448,7 +3448,7 @@ Manager reported at 0005 that the wires were so low that OLE staff were required
 before detraining could be authorised. OLE staff and the BT Police were on site by 0037. Earths were
 applied by 0100, and detraining commenced. By 0109, detraining had been completed and all passengers
 were at the platform, heading for taxis that had been arranged. Assessment of damage ongoing at close
-of Report, with an initial estimate of six hours for completion of repairs.",Great Chesterford,52.05982142,0.19352303899999998,CB10 1NY
+of Report, with an initial estimate of six hours for completion of repairs.",Great Chesterford,52.05982142,0.193523039,CB10 1NY
 2019-08-27,Eastern (LNE-York),CCIL 2005603 ,"Fault No. 767931 / At 2328 the driver of 5Z48, West Coast Railways, 2213 York – Carnforth, reported that L4027 signal on
 the Down Shipley Main line between Cononley and Skipton had reverted to red as the train approached.
 The driver was unable to stop and passed the signal at red. The driver was fit to continue. The reversion
@@ -3470,7 +3470,7 @@ Mobile Operations Manager, and trains were diverted via Sidcup where possible. T
 Manager was on site at 1835 and reported nothing obvious was amiss. The track circuit cleared by 1844,
 but failed again, affecting signal TL251 on the Down Loop line. S&T staff were arranging a Line Blockage
 by 1857. Normal signalling was available from 1911 after a loose rail key which had shorted out two base
-plates was found and removed.",Lewisham,51.46569471,-0.014017113999999999,SE13 7RY
+plates was found and removed.",Lewisham,51.46569471,-0.014017114,SE13 7RY
 2019-08-27,Region / Route Time Location Bridge No. Dispensation NWR,CCIL TRUST ,Eastern (EM) 0808 Desford KSL/OB26 OB 0848 2005348 No delay,Region / Route Time Location Bridge No. Dispensation NWR,,,
 2019-08-27,Wales and Western (Wales),CCIL 2005253 ,"At 0419 the driver of 6B02, DB Cargo, 0059 (Tue) Acton TC – Cardiff Tidal, reported that the train was at
 a stand on the Down Tunnel line within Severn Tunnel due to a loss of air. All services were routed via the
@@ -3557,10 +3557,10 @@ advised that the possession would most likely overrun by one hour but that part 
 back, to allow services to cross over at Wylde Green. This was implemented from 0556 with a Mobile
 Operations Manager on site. Numerous services were cancelled, and road replacement transport was
 provided to run between Sutton Coldfield and Lichfield City. By 0630, the possession had been given up
-and trains were able to be signalled normally.",Sutton Coldfield Tunnel,52.56495316,-1.824852952,B73 6AY
+and trains were able to be signalled normally.",Sutton Coldfield Tunnel,52.56495316,-1.8248529519999999,B73 6AY
 2019-08-28,North West and Central (LNWS),CCIL 2005950 ,"At 0810 it was advised that a station staff member at Birmingham Snow Hill had been assaulted. After
 asking a vagrant to move on, the station staff member was punched in the face and required hospital
-attention.",Birmingham Snow Hill,52.48358956,-1.899820964,B3 2BJ
+attention.",Birmingham Snow Hill,52.48358956,-1.8998209640000001,B3 2BJ
 2019-08-28,Eastern (Anglia),CCIL 2006103 ,"At 1424 the driver of 1B67, Greater Anglia, 1400 Stansted Airport – Liverpool Street, reported a near miss
 with a person at Roydon Lock UWC, between Roydon and Harlow Town. The person ran across the
 crossing in front of the train, carrying an inflatable canoe. The driver thought that the train struck the canoe.
@@ -3728,7 +3728,7 @@ SPAD inhibitor. 4E63, Freightliner, 0538 Felixstowe – Doncaster EPT, was appro
 on the Down Main line when it reverted to red. The driver unable to stop and passed WS7049 signal at
 red. The driver was fit to continue when the circumstances were explained. The driver of 4E00, GB
 Railfreight, 0440 London Gateway – Masborough N&W also experienced a change of aspect at WS7025
-signal on the Down Main line at Littleworth, but passed no signal at red. 2L53 proceeded from Spalding at",Littleworth,52.721447999999995,-0.211837,E11 3DD
+signal on the Down Main line at Littleworth, but passed no signal at red. 2L53 proceeded from Spalding at",Littleworth,52.721448,-0.211837,E11 3DD
 2019-08-29,Wales and Western (Western),CCIL 2006560 ,"At 0928 the driver of 1K11, Great Western Railway, 0923 Newbury – London Paddington, formed by nine
 coach unit 800316, brought the train to a stand at Thatcham station with the front three coaches not in the
 platform. The driver then initiated a release of the rear six coaches but all doors released. There were no
@@ -3777,7 +3777,7 @@ striking a person at Luton station platform 5. The person was observed to jump t
 train. Following an investigation by the BT Police (ref. 342) it was deemed to be a near miss and not a
 fatality, it was believed the individual received a glancing blow but was seen exiting the station. The driver
 was shaken by the incident but fit to continue. A Mobile Operations Manager attended and confirmed
-Fencing has been checked and Samaritans signs all in place including one adjacent to the incident.",Luton,51.88231,-0.41403999999999996,LU1 2LT
+Fencing has been checked and Samaritans signs all in place including one adjacent to the incident.",Luton,51.88231,-0.41404,LU1 2LT
 2019-08-29,North West and Central (LNWN),CCIL 2006430 ,"At 0556, the driver of 5F00, Northern Rail, 0501 Allerton Depot – Warrington Central reported seeing a
 body under the platform of Hough Green station on the Up Main line side and stated that they did not
 believe they had struck the individual. Station staff advised that the individual appears to be intoxicated
@@ -3811,7 +3811,7 @@ for the reversion is a long standing design issue at the location. The driver wa
 signal on the Down Main line at Redbridge had reverted to red as the train approached. The driver was
 unable to stop and passed the signal at red. The driver was fit to continue. The reversion was thought to
 have been caused by a brief failure of track circuit ‘KV’, relating to the fact that 9B95 was formed of Class
-442 units.",Redbridge,50.91993012,-1.4701678630000001,SO15 0NB
+442 units.",Redbridge,50.91993012,-1.470167863,SO15 0NB
 2019-08-29,Southern (Sussex),CCIL 2006872 ,"At 2052 the driver of 2I57, Govia Thameslink Railway, 2001 Epsom – London Victoria, reported that VC532
 signal on the Up Brighton Slow line at London Victoria had reverted from yellow to red as the train
 approached. The driver was unable to stop and passed the signal at red. The driver was fit to continue.
@@ -3872,7 +3872,7 @@ staff and equipment.",North West and Central (LNWN),,,
 reported a near miss at Scrooby User Worked LC, between Retford and Doncaster, with a group of cyclists.
 The group did not react to the driver sounding the horn and continued to cross. The driver was fit to
 continue. The BTP (ref. 292) were advised. A Mobile Operations Manager attended and reported no-one
-in the area, with all signage in place and phones in order.",Retford,53.31517556,-0.947878147,DN22 7DE
+in the area, with all signage in place and phones in order.",Retford,53.31517556,-0.9478781470000001,DN22 7DE
 2019-08-30,Wales and Western (Wales),CCIL 2007406 ,"Fault No. 448251 / At 1941 the driver of 2D20 Transport for Wales, 1905 Llandudno – Blaenau Ffestiniog, reported a near
 miss at Bod Hyfryd UWC, at 7m 48c between Glan Conwy & Llanrwst, with quad bike followed by a large
 flock of sheep crossing in front of the train. The controlling signaller at Llanrwst confirmed that no request
@@ -3898,7 +3898,7 @@ The circumstances under which an Emergency GSM-R call was initiated to report th
 investigation by Arriva Rail London.",New Cross Gate,51.47531127,-0.040384664,SE14 6AR
 2019-08-30,Scotland,CCIL 2007120 ,"At 1020 1R35, ScotRail, 0945 Edinburgh Waverley – Glasgow Queen Street, formed by units 385016 &
 385112, comprising seven coaches in all, failed to call at Falkirk High station. The driver gave no reason
-for the error, but was judged fit to continue.",Falkirk High,55.99180314,-3.792238796,FK1 5QX
+for the error, but was judged fit to continue.",Falkirk High,55.99180314,-3.7922387960000004,FK1 5QX
 2019-08-30,Eastern (LNE York),CCIL 2007275 ,"At 1417 2S32, Northern Rail, 1411 Bradford Forster Square – Skipton, formed by unit 321903, comprising
 four coaches in all, overran Shipley station by ½ a coach length, completing station duties via the remaining
 doors. with permission. The driver did not report the overrun, which came to light as a result of the
@@ -3909,7 +3909,7 @@ permission. The driver stated that the overrun was due to memory lapse. The driv
 with a Driver Learning Manager on board.",Wales and Western (Western),,,
 2019-08-30,Wales and Western (Western),CCIL 2007421 ,"At 2007 2L63, Great Western Railway, 1957 Oxford – Didcot, formed by unit 165125, comprising two
 coaches in all, failed to call at Culham station. The driver stated that the overrun was due to forgetting that
-the train was booked to call.",Culham,51.65379512,-1.236511134,OX14 3BT
+the train was booked to call.",Culham,51.65379512,-1.2365111340000001,OX14 3BT
 2019-08-30,Eastern (LNE York),CCIL 2007325 ,"At 1642 1K26, TransPennine Express, 1540 Hull – Manchester Piccadilly, formed by unit 185113,
 comprising three coaches in all, overran Cottingley station by 20 metres. The driver stated that the overrun
 was due to a lack of concentration. The driver was fit to continue.",Eastern (LNE York),,,
@@ -3975,7 +3975,7 @@ to traffic from Skipton and Leeds was imposed at 1328. At 1330 the driver declar
 a Mobile Operations Manager was mobilised to site and other services were held at station platforms.
 2H90, Northern Rail, 1318 Leeds – Carlisle was identified to assist and following the passengers being
 detrained at Shipley, 2H90 successfully coupled with 2H89 and proceeded forward at 1415, allowing the
-block to traffic to be lifted and trains to be signalled normally.",Bingley,53.84840967,-1.836944749,BD16 2NA
+block to traffic to be lifted and trains to be signalled normally.",Bingley,53.84840967,-1.8369447490000002,BD16 2NA
 2019-08-30,North West and Central (LNWN),CCIL No entry raised ,"At 1207 the guard working 2S84, Northern Rail, 1149 Manchester Piccadilly – Sheffield, reported from
 Romiley station that the train, formed by unit 142045, was suffering from loss of power. After 18 mins
 overtime at Romiley to try and rectify the fault, 2S84 went forward to destination, losing more time en-route
@@ -4015,7 +4015,7 @@ services came to a stand and became trapped (see stranded train section 07 of th
 reported that the fault could be blown fuse on the A end of the points. Services were diverted via Durham
 Coast and terminated at Darlington and Newcastle Central. S&T staff were on site and by 1448 reported
 that a blown fuse had been replaced allowing trains to be signalled normally without restrictions. Significant
-reactionary delays occurred as a result.",Darlington,54.52045136,-1.5473284790000001,DL1 4AA
+reactionary delays occurred as a result.",Darlington,54.52045136,-1.547328479,DL1 4AA
 2019-08-31,Eastern (Anglia),CCIL 2007579 ,"Fault No. 297504 / At 0623 Hargham No. AHB L.C, between Eccles Road and Attleborough failed. The signaller on the
 Thetford Workstation reported that the barriers were shown raised, the driver of the first train to be
 cautioned confirmed that the barriers were in the lowered position. The Mobile Operations Manager
@@ -4039,11 +4039,11 @@ at 1150. The driver was fit to continue.",Willington,52.85366357,-1.563360192,DE
 that K551 signal on the Down Fast line at Welham Green had reverted from green to red as the train
 approached. The driver was unable to stop and passed the signal at red. The reason for the reversion was
 the momentary loss of aspect on K559 signal in advance (an ongoing fault). The driver was fit to continue.
- TRUST 285753 IQG8",Welham Green,51.73635,-0.21069000000000002,AL9 7HF
+ TRUST 285753 IQG8",Welham Green,51.73635,-0.21069,AL9 7HF
 2019-08-31,Wales and Western (Western),CCIL 2007745 ,"Fault No. 448282 / At 1335 the driver of 2L54, Transport for Wales, 1329 Tondu – Cardiff Central, reported that TU6 signal
 on the single line at Wildmill station had reverted from green to red as the train approached. The driver
 was unable to stop and passed the signal at red. There was no apparent reason for the reversion, the
-driver was fit to continue.",Wildmill,51.52087413,-3.5796535019999998,CF31 1RW
+driver was fit to continue.",Wildmill,51.52087413,-3.579653502,CF31 1RW
 2019-08-31,Wales and Western (Western),CCIL 2007791 ,"Fault No. 448287 / At 1604 the driver of 1V97, Transport for Wales, 1239 Holyhead – Maesteg, reported that H10 signal on
 the Down Main line at Shelwick Junction had reverted from green to red as the train approached. The
 driver was unable to stop and passed the signal at red. The reversion was caused by a track circuit failure.
@@ -4127,6 +4127,47 @@ at 0127.",Eastern (LNE York),,,
 5, bell vice horn at a warning, on S4 signal on the T&H line at Crouch Hill. Unit 710265. Subsequent
 cautioned services reported receiving the correct indications. The unit was taken out of service and
 returned to Willesden Depot for examination. S&T staff attended to undertake testing; completed by 1157
+with no fault found. The equipment was returned to normal use.",Crouch Hill,51.57125968,-0.11692929199999999,N4 4AU
+2019-08-07,North West and Central (LNWN),CCIL 1994606 ,"Fault No. 861221 /  At 1015 the driver of 1B69, Transpennine Express, 0726 Cleethorpes – Manchester Airport reported that
+signal HG25(R) on the Up Hope Valley line at Disley, reverted from a single yellow aspect to double yellow,
+then back to a single yellow. Upon further investigation, the signaller advised that the signal should have
+been displaying a red aspect. At the time of the incident, S&T Works Delivery staff were changing relays
+on No. 206 and 207 points at Hazel Grove. The Works Delivery Team Leader was contacted and instructed
+to cease all work and compile a report. Forward-Facing CCTV and a driver’s report were requested from
+Transpennine Express. The signaller was asked to treat signals HG25 and HG25(R) as defective. At 1225,
+Manchester South Tech staff advised signal HG25 showed no irregular operation, however HG25(R) was
+not monitored on their Trackwatch system. S&T staff carried out non-destructive testing and staff returned
+overnight to complete destructive testing, ongoing at the close of this Report.",Hazel Grove,53.37756004,-2.122016963,SK7 4EX
+2019-08-07,Eastern (LNE York),CCIL 1994419 ,"At 0340 6M26, DB Cargo, 2310 Wilton – Knowsley, passed HM330 signal on the Up Huddersfield line at
+Heaton Lodge Junction at red by 30 yards. When questioned, the driver stated that they had misjudged
+ the braking on approach to the signal (group 2 cause). After consultation with DB Cargo, the driver was
+ judged unfit to continue and was relieved of duty at the site.",Eastern (LNE York),,,
+2019-08-07,Eastern (LNE York),CCIL 1994831 ,"Fault No. 765686 / At 1835, 2C58, Northern Rail, 1749 Leeds – York, passed S2 signal on the Up Harrogate line at Starbeck
+at red by four coach lengths. When questioned, the driver stated that they had suffered a lapse in
+concentration (group 2 cause). After consultation with Northern, the driver was judged fit to continue to
+destination where they were met on arrival.",Starbeck,53.99901434,-1.501135911,HG2 7JA
+2019-08-07,Eastern (LNE York),CCIL 1994841 ,"Fault No. 765688 / At 1912, 1G22, Northern Rail, 1833 Hull – Scarborough, passed D13 signal on the Down line at Driffield at
+red by three coach lengths. When questioned, the driver stated that they had assumed the signal would
+ clear to a proceed aspect (group 2 cause). After consultation with Northern, the driver was judged fit to
+ continue and was met on arrival at Bridlington where the train was terminated.",Bridlington,54.08414656,-0.19871914899999998,YO15 3EP
+2019-08-07,Eastern (LNE York),CCIL 1994695 ,"At 1324 the driver of 9S24, Govia Thameslink Railway, 1108 Brighton – Cambridge, formed by unit
+ 700102, comprising twelve coaches in all, brought the train to a stand at Royston station at the eight-car
+ marker board and released all of the doors on the train, with the rear four carriages not in the platform.
+ Upon realising the error, all doors were secured, after it was established that no passengers had alighted.
+ The driver was then given permission to move forward to accommodate all coaches in the platform.",Royston,52.05309000000001,-0.026910000000000003,SG8 5AH
+2019-08-07,Southern (Kent),CCIL 1994692 ," At 1341 the signaller at Rye reported that a crossing user had requested permission to cross at Snailham
+ UWC, between Doleham and Winchelsea. The signaller had checked CCF and from the display believed
+ there was sufficient time to cross before 2D34, Govia Thameslink Railway, 1249 Eastbourne – Ashford,
+ arrived at the crossing, and therefore authorised the user to cross. The user then called back and informed
+the signaller that whilst they were getting ready to cross a train had gone through. The user was not on
+the crossing at the time. The signaller reported that CCF had frozen which mislead them as to the
+whereabouts of 2D34. No issues were reported by the driver of 2D34. The Local Operations Manager was
+ advised and appointed as the Investigating Officer. The signaller was relieved of duty for interview and
+ screening.",Snailham,50.926792999999996,0.643504,N36 4AT
+2019-08-07,Eastern (Anglia),CCIL 1994517,"Fault No. 296000 / At 0713 the driver of 2J00, Arriva Rail London, 0632 Barking – Gospel Oak, reported an AWS Fault Code
+5, bell vice horn at a warning, on S4 signal on the T&H line at Crouch Hill. Unit 710265. Subsequent
+cautioned services reported receiving the correct indications. The unit was taken out of service and
+returned to Willesden Depot for examination. S&T staff attended to undertake testing; completed by 1157
 with no fault found. The equipment was returned to normal use.",Crouch Hill,51.57125968,-0.116929292,N4 4AU
 2019-08-07,North West and Central (LNWN),CCIL 1994606 ,"Fault No. 861221 /  At 1015 the driver of 1B69, Transpennine Express, 0726 Cleethorpes – Manchester Airport reported that
 signal HG25(R) on the Up Hope Valley line at Disley, reverted from a single yellow aspect to double yellow,
@@ -4246,47 +4287,6 @@ the crossing at the time. The signaller reported that CCF had frozen which misle
 whereabouts of 2D34. No issues were reported by the driver of 2D34. The Local Operations Manager was
  advised and appointed as the Investigating Officer. The signaller was relieved of duty for interview and
  screening.",Snailham,50.926793,0.643504,N36 4AT
-2019-08-07,Eastern (Anglia),CCIL 1994517,"Fault No. 296000 / At 0713 the driver of 2J00, Arriva Rail London, 0632 Barking – Gospel Oak, reported an AWS Fault Code
-5, bell vice horn at a warning, on S4 signal on the T&H line at Crouch Hill. Unit 710265. Subsequent
-cautioned services reported receiving the correct indications. The unit was taken out of service and
-returned to Willesden Depot for examination. S&T staff attended to undertake testing; completed by 1157
-with no fault found. The equipment was returned to normal use.",Crouch Hill,51.57125968,-0.11692929199999999,N4 4AU
-2019-08-07,North West and Central (LNWN),CCIL 1994606 ,"Fault No. 861221 /  At 1015 the driver of 1B69, Transpennine Express, 0726 Cleethorpes – Manchester Airport reported that
-signal HG25(R) on the Up Hope Valley line at Disley, reverted from a single yellow aspect to double yellow,
-then back to a single yellow. Upon further investigation, the signaller advised that the signal should have
-been displaying a red aspect. At the time of the incident, S&T Works Delivery staff were changing relays
-on No. 206 and 207 points at Hazel Grove. The Works Delivery Team Leader was contacted and instructed
-to cease all work and compile a report. Forward-Facing CCTV and a driver’s report were requested from
-Transpennine Express. The signaller was asked to treat signals HG25 and HG25(R) as defective. At 1225,
-Manchester South Tech staff advised signal HG25 showed no irregular operation, however HG25(R) was
-not monitored on their Trackwatch system. S&T staff carried out non-destructive testing and staff returned
-overnight to complete destructive testing, ongoing at the close of this Report.",Hazel Grove,53.37756004,-2.122016963,SK7 4EX
-2019-08-07,Eastern (LNE York),CCIL 1994419 ,"At 0340 6M26, DB Cargo, 2310 Wilton – Knowsley, passed HM330 signal on the Up Huddersfield line at
-Heaton Lodge Junction at red by 30 yards. When questioned, the driver stated that they had misjudged
- the braking on approach to the signal (group 2 cause). After consultation with DB Cargo, the driver was
- judged unfit to continue and was relieved of duty at the site.",Eastern (LNE York),,,
-2019-08-07,Eastern (LNE York),CCIL 1994831 ,"Fault No. 765686 / At 1835, 2C58, Northern Rail, 1749 Leeds – York, passed S2 signal on the Up Harrogate line at Starbeck
-at red by four coach lengths. When questioned, the driver stated that they had suffered a lapse in
-concentration (group 2 cause). After consultation with Northern, the driver was judged fit to continue to
-destination where they were met on arrival.",Starbeck,53.99901434,-1.501135911,HG2 7JA
-2019-08-07,Eastern (LNE York),CCIL 1994841 ,"Fault No. 765688 / At 1912, 1G22, Northern Rail, 1833 Hull – Scarborough, passed D13 signal on the Down line at Driffield at
-red by three coach lengths. When questioned, the driver stated that they had assumed the signal would
- clear to a proceed aspect (group 2 cause). After consultation with Northern, the driver was judged fit to
- continue and was met on arrival at Bridlington where the train was terminated.",Bridlington,54.08414656,-0.19871914899999998,YO15 3EP
-2019-08-07,Eastern (LNE York),CCIL 1994695 ,"At 1324 the driver of 9S24, Govia Thameslink Railway, 1108 Brighton – Cambridge, formed by unit
- 700102, comprising twelve coaches in all, brought the train to a stand at Royston station at the eight-car
- marker board and released all of the doors on the train, with the rear four carriages not in the platform.
- Upon realising the error, all doors were secured, after it was established that no passengers had alighted.
- The driver was then given permission to move forward to accommodate all coaches in the platform.",Royston,52.053090000000005,-0.026910000000000003,SG8 5AH
-2019-08-07,Southern (Kent),CCIL 1994692 ," At 1341 the signaller at Rye reported that a crossing user had requested permission to cross at Snailham
- UWC, between Doleham and Winchelsea. The signaller had checked CCF and from the display believed
- there was sufficient time to cross before 2D34, Govia Thameslink Railway, 1249 Eastbourne – Ashford,
- arrived at the crossing, and therefore authorised the user to cross. The user then called back and informed
-the signaller that whilst they were getting ready to cross a train had gone through. The user was not on
-the crossing at the time. The signaller reported that CCF had frozen which mislead them as to the
-whereabouts of 2D34. No issues were reported by the driver of 2D34. The Local Operations Manager was
- advised and appointed as the Investigating Officer. The signaller was relieved of duty for interview and
- screening.",Snailham,50.926792999999996,0.643504,N36 4AT
 2019-08-07,Region / Route Train Since Between OUTCOME,CCIL ," Northampton
  North West and 1Y84, West Midlands Trains, 0622 0720 ‐
  and Proceeded forward after unit fault was overcome. 1994518
@@ -4300,7 +4300,7 @@ Central (LNWS) Coventry – London Euston 0824
 act. The person was removed alive from under the train and was treated by paramedics on the platform.
  However, at 1711 the BT Police advised the person had succumbed to their injuries and had been declared
  deceased. The Ambulance Service then removed the body from the station and all lines were re-opened
- from 1735.",Doncaster,53.521497100000005,-1.140234479,DN1 1PE
+ from 1735.",Doncaster,53.52149710000001,-1.140234479,DN1 1PE
 2019-08-07,Southern (Sussex),CCIL 1994400 ,"At 0205 the PICOP for engineer’s possession London Bridge Central / Bricklayers Arms Jn / South
 Bermondsey Junction (KS WON 19, item 110, Platforms 10-15, lines 9, 10 & 11, Up & Down Bermondsey
 lines blocked 0105 – 0445, possession manager Kent IMDM) reported that a welder, working in the vicinity
@@ -4342,7 +4342,7 @@ continued to run with no issues reported. A Line Blockage was granted at 1052 to
 Mobile Operations Manager to inspect the defect. Services were diverted via Normanton, subject to route
 knowledge. At 1132, the Mobile Operations Manager reported they had found the defect and clamped the
 rail as a precaution. By 1210, all personnel were clear of the tunnel and the Line Blockage was handed
-back, allowing trains to be signalled normally. The rail was planned to be replaced on the 7th September.",Morley,53.74994099,-1.5909718369999999,LS27 8JR
+back, allowing trains to be signalled normally. The rail was planned to be replaced on the 7th September.",Morley,53.74994099,-1.590971837,LS27 8JR
 2019-08-07,Scotland,CCIL 1994804 ,"Fault No. 339716 /  At 1744, Cathcart ECO reported that OLE section RG6, between Mossend East Junction and Bellshill, had
  tripped and reset. The driver of 1Y91, ScotRail, 1656 Edinburgh Waverley – Glasgow Central then reported
  suffering an ADD activation whilst travelling between Holytown and Mossend. The train was within platform
@@ -4364,7 +4364,7 @@ OLE staff by 2136, allowing coasting to be implemented on both lines. Coasting b
 Up Sutton Park line at Sutton Park, between Water Orton and Walsall, had reverted from green to red as
 the train approached. The driver was unable to stop and passed the signal at red. The driver was fit to
 continue. The reversion was found to be the result of an intermittent track circuit failure, attended to by
-S&T staff to restore.",Water Orton,52.51859467,-1.7430971880000001,B46 1NE
+S&T staff to restore.",Water Orton,52.51859467,-1.743097188,B46 1NE
 2019-08-07,North West and Central (LNWN),CCIL 1994710 ,"Fault No. 861269 / At 1430 the driver of 1H24, Virgin Trains West Coast, 1220 London Euston – Manchester Piccadilly,
 reported that MD113 signal on the Down Main line at North Rode Viaduct, between Kidsgrove and
 Macclesfield, had reverted from yellow to red as the train approached. The driver was unable to stop and
@@ -4435,7 +4435,7 @@ to a Wheel Slip Protection (WSP) fault. The driver performed a rotational test a
  A block on traffic from Newcastle was imposed and a Mobile Operations Manager arrived on site at 1105.
  After London North Eastern Railway Control had liaised with the driver, it was agreed that 1E07 would set
  back into the loop at Darlington and an assisting locomotive would then take the train to Craigentinny.
- 1E07 commenced setting back at 1124 and was clear inside the loop by 1203. Reactionary delay ensued.",Darlington,54.52045136,-1.5473284790000001,DL1 4AA
+ 1E07 commenced setting back at 1124 and was clear inside the loop by 1203. Reactionary delay ensued.",Darlington,54.52045136,-1.547328479,DL1 4AA
 2019-08-07,Scotland,CCIL 1994860 ,"Fault No. 339727 /  At 2006, the driver of 1P15, ScotRail, 1919 Edinburgh Waverley – Dunblane reported water flowing over
  the Up and Down E&G lines in the vicinity of Winchburgh Tunnels. Concurrently, multiple track circuit
  failures were reported in the area. The driver of 1R17, ScotRail, 1930 Edinburgh Waverley – Glasgow
@@ -4465,3 +4465,202 @@ Operations Manager requested an emergency switch off of the traction current on 
  control. The fires were extinguished and all fire crews clear of the tracks by 0738. The traction current was
  recharged at 0741 with all lines reopened at 0751. An initial infrastructure examination revealed no
  significant damage with a full inspection arranged to be undertaken overnight.",Battersea Park,51.47733308,-0.14816296699999998,SW8 4LJ
+2019-08-09,North West and Central (LNWN),CCIL 1994606 ,"Fault No. 861221 / With reference to the alleged wrong side failure of HG25R signal on the Up Hope Valley line at Disley,
+detailed in this section of the previous two days’ Reports; Forward Facing CCTV was viewed but it could
+not be established which aspects were being displayed as a result of wet conditions within the tunnel.
+Destructive testing was completed by 0451 with four relays replaced in location cabinet 167/11. Testing of
+the signal was ongoing at the close of this report.",Disley,53.35819889,-2.0424769659999997,SK12 2AE
+2019-08-09,Southern (Wessex),CCIL 1995724 ,"Fault No. 449085 / At 0941 1I42, LUL District Line – Wimbledon, 0942 East Putney – Wimbledon, passed W361 signal on the
+Down (westbound) line between East Putney and Southfields at red by ¼ of a coach length. When
+questioned, the driver stated they had failed to react to the caution aspect displayed by the preceding
+signal (group 2 cause). After consultation with LUL District Line – Wimbledon, the driver was judged fit to
+continue and was relieved of duty on return to Earls Court.",East Putney,51.45887978,-0.21099823399999998,SW15 6SN
+2019-08-09,Wales and Western (Western),CCIL 1995159 ,"Fault No. 446548 / With reference to the alleged run through of No. 55 points (Main – Main crossover) at St. Erth and possible
+wrong side failure, detailed in this section of yesterday’s Report; by 0524, the points had been secured in
+the Normal position and strapped out with detection to facilitate normal signalling on the Main lines. This,
+however, prevented access to the Down Main line from the Up Main line or St. Ives branch. From the start
+of service, services between St. Ives and Penzance were started and terminated at St. Erth. The points
+remained secured pending repair work to be undertaken on Friday 9th and Saturday 10th nights.",Wales and Western (Western),,,
+2019-08-09,North West and Central (LNWN),CCIL 1995541 ,"At 0643 the driver of 1H99, Northern Rail, 0613 Liverpool Lime Street – Wilmslow, formed by units 195118
+and 195121, reported having a TPWS intervention at Burtonwood on the Down Main line between
+Warrington Central and Widnes. The driver reported a TPWS brake intervention at the TPWS OSS for the
+50 MPH PSR at 17.12mp at Burtonwood. Driver reports travelling at 70mph, whereas the linespeed is 85
+MPH and the grid is set at 76mph. Northern Rail reported at 0657 that the driver is not ‘at risk’ and were
+happy for the train to continue, with an OTMR download being taken from the unit at the end of service.",North West and Central (LNWN),,,
+2019-08-09,Eastern (Anglia),CCIL 1995699 ,"At 0851, upon arrival at Witham, the driver of 1Y08, Greater Anglia, 0806 London Liverpool Street –
+Ipswich, formed by units 360111, 360102 & 360108 comprising 12 coaches in all, stopped the train at the
+‘8 car stop’ mark and released all the doors. The error was realised and corrected, with no passenger
+incidents reported. The driver was judged fit to continue to Colchester, relieved of duty on arrival.",Witham,51.80597989,0.639143614,CM8 2BS
+2019-08-09,Eastern (Anglia),CCIL 1995904 ,"At 1622, the Shift Signaller Manager at London Liverpool Street IECC, reported that 2S36, Greater Anglia
+1500 Stratford – Bishops Stortford and 2S43, Greater Anglia 1547 Bishops Stortford – Stratford had
+traversed Sawbridgeworth L.C with a person trapped between the lowered barriers with the protecting
+signals having been cleared. The signaller was relieved of duty for interview and ‘for cause’ screening.",London Liverpool Street,51.51802304,-0.081995697,EC2M 7PY
+2019-08-09,Region / Route Train Since Between OUTCOME,CCIL ," 1R00, Virgin Trains West Coast
+North West and Central",Region / Route Train Since Between OUTCOME,,,
+2019-08-09,Wales and Western (Western),CCIL 1996001 ,"At 1810 the driver of 1V62, CrossCountry, 1100 Glasgow Central – Penzance, reported that the train had
+struck a person on the Down Charfield line at Cam & Dursley station. Both lines were blocked, Emergency
+services and Network Rail staff attended at 1858. Services were diverted via Gloucester and the Kemble
+lines where possible. BT Police (ref. 500) reported at 1847 that having obtained a statement from the
+driver, they had deemed the incident a non-suspicious deliberate act. All lines were reopened from 1938.",Cam & Dursley,51.71761608,-2.359096838,GL11 5DJ
+2019-08-09,Southern (Wessex),CCIL 1996103 ,"At 2146 the driver of 1D70, EF, 2132 Dorking – London Waterloo, reported that the train had struck a
+person on the Up Portsmouth line at Lady Howard public footpath crossing, near Ashtead. Both lines were
+blocked, Emergency services and Network Rail staff attended at 2209. Services were diverted via Cobham
+where possible. BT Police (ref. 673) reported at 2316 that having obtained a statement from the driver,
+they had deemed the incident as a non-suspicious deliberate act. The body was trapped under 1D70 which
+was moved clear of the scene into Epsom station at 2350. Body recovery was completed and all lines
+were reopened from 0107. The MIO confirmed at 2357 that all signage at the crossing was present and
+there were no issues with the crossing.",Lady Howard,51.322308,-0.293444,T21 1NW
+2019-08-09,Wales and Western (Western),CCIL 1996081 ,"At 2050 the driver of 1P44, Great Western Railway, 1829 Great Malvern – London Paddington, reported
+that the train had struck a person on the Up Main line at West Drayton, all lines were blocked. BT Police
+(ref: 636) advised at 2100 that the person was still alive having sustained life changing injuries. Emergency
+services were on site by 2108 and Network Rail staff attended at 2114. At 2128, the Down Main line and
+Up Relief lines were reopened with trains not calling at West Drayton station. The person was treated on
+the Down Relief platform by Paramedic staff and was taken to hospital from the station at 2133. From 2204
+trains were able to call at West Drayton on the Up Relief line only and at 2233 the Down Relief line was
+reopened with trains able to call at the station. 1P44 was on the move with a relief driver at 2245, resulting
+in all lines being available without restriction. BT Police (ref. 636) reported that they had deemed the
+incident as non-suspicious. Samaritans signage and anti-trespass signs were confirmed as in place at
+West Drayton and the security gates between the Main and Relief lines were closed.",West Drayton,51.51006005,-0.47222523200000005,UB7 9DY
+2019-08-09,Eastern (LNE York),CCIL 1995524 ,"Fault No. 765829 / At 0001 (Fri), it was reported that there had been a loss of signalling affecting track circuits, points and
+signals on the Down Sunderland line at Greatham. The BT Police were advised (ref. 11) and by 0141, staff
+had located 40 metres of 37 core and 2 core cable which had been cut, along with a damaged telecoms
+cable. No. 2861 points had been secured in the Normal position without detection by 0245. Further signal
+failures affecting the Up Sunderland line had also been identified by 0338, resulting in four signals being
+required to be passed at red on the Down line and three on the Up line. By 0354, the 37 core cable had
+been run out between the two location cabinets and Day turn S&T and Telecoms staff were on site at",Greatham,54.633993999999994,-1.229531,S25 2HB
+2019-08-09,Southern (Sussex),CCIL 1995615 ,"At 0534 9R02, Govia Thameslink Railway, 0514 Three Bridges – Bedford, formed by unit 700116,
+comprising 12 coaches in all, failed to call at Redhill station. The driver, who was fit to continue, stated
+that the overrun was due to having been issued with the diagram for Thursday instead of Friday.",Redhill,51.24019809,-0.165898311,RH1 1RB
+2019-08-09,Southern (Kent),CCIL 1995698 ,"Fault No. 449082 / At 0840 the driver of 2M18, Southeastern, 0826 London Charing Cross – Dartford, reported a rough ride,
+with vertical and lateral movement on approach to TL2057 signal on the Down Kent Fast line between
+New Cross and Tanners Hill tunnel. Following trains were cautioned, Mobile Operations Manager attended
+and confirmed poor ballast conditions and voiding in the area. P’Way staff attended and undertook a cab
+ride over the section, reporting at 1020 the line was fit for traffic without restriction. Cautioning of trains
+then ceased.",Southern (Kent),,,
+2019-08-09,North West and Central (LNWS),CCIL 1995244 ,"With reference to the OLE dewirement at Stone, detailed in this section of yesterday’s Report; all repairs
+had been completed by 0336, however, further damage to the contact wire was located at No. 609b points.
+As a result, a BTET was imposed over the points for services travelling from the Up Main to Down Main
+lines and vice versa. Plain line running was unaffected and arrangements made for further repairs to be
+carried out a later date.",Stone,51.32287,0.83847,E13 0TW
+2019-08-09,North West and Central (LNWS),CCIL 1995616 ,"Fault No. 861463 / At 0531, OLE section ‘PN20’ tripped and would not reset, affecting the Down line between Coventry and
+Birmingham International. 1R00, Virgin Trains West Coast, 0500 Wolverhampton – London Euston, was
+used to examine from the Up line and at 0600 the driver reported running into OLE wires in Beechwood
+tunnel. Both lines were blocked, Virgin Trains West Coast services terminated at Coventry or diverted via
+the Trent Valley. West Midlands Trains services were terminated at Coventry and Birmingham
+International, with Northampton – Birmingham New Street services suspended. CrossCountry services
+were diverted via Solihull. OLE staff and Mobile Operations Manager arrived on site at 0650, examination
+of the OLE revealed that although the catenary wire had parted, the contact wire was intact and was clear
+of 1R00, which was then set back to Birmingham International, arriving at 0735. OLE staff operated local
+switches, reducing the extent of the isolation and restoring traction current between Rugby and Coventry
+at 0800. An engineer’s possession of both lines was granted at 1032 and repair work commenced at 1050.
+Repairs were completed and traction current restored at 1615, both lines were reopened at 1715.",Coventry,52.40082838,-1.513460517,CV1 2GT
+2019-08-09,North West and Central (LNWS),CCIL 1995894 ,"Fault No. 861579 / At 1543 the driver of 9K26, West Midlands Trains, 1521 Birmingham New Street – Crewe, reported that in
+the vicinity of Down side structure BB06/21 near Dudley Port station the return conductor appeared to
+have become detached from the structure and was hanging down, but not foul of running line. The driver
+1F49, Virgin Trains West Coast, 1518 Birmingham International – Liverpool Lime Street was asked to
+examine the line, reporting at 1604 that the return conductor wire was touching the ground. Trains were
+cautioned past the structure. OHLE reported at 1720 the structure was not safe to pass and a block was
+put on to all traffic. By 1748 OHLE staff were on site to move the cable to release the trapped trains. A
+further line blockage was taken at 1804 for further repairs. All repairs were completed by 1853 allowing
+trains to operate without restriction.",North West and Central (LNWS),,,
+2019-08-09,"Eastern (LNE-York) & (LNE-EM), Southern (Kent) & (Sussex), NW&C (LNWN) and Wales & Western.
+/","CCIL 1995945, 1995891, 1995930 & 1995918 ","At 1700 there were National Grid power failures and multiple losses of the external supply affecting
+numerous locations across England and Wales including Ashford, Eastbourne, Hastings, Three Bridges,
+Westbury, Bristol, Newport, Gloucester, Exeter and Liverpool areas. Signalling systems changed over to
+standby and restored, there were a number Technical Signal Reversion SPARs as a result of the loss of
+supply and those recorded are detailed in the table below. However, the failure caused the Siemens
+computer systems at Three Bridges, which manages the MITRAC and TMS systems, to fail. This resulted
+in all class 700 and 717 units running on A.C. mode coming to a stand having received an error message
+‘traction issue 4QC failure in leading semi unit fault and requiring the units to be shut-down and rebooted.
+A general call was sent to drivers requesting them to carry out the following process: Battery Off, Battery
+On, Pan Down, Pan Up’ to reboot the units. This stopped the entire class 700 fleet and severely disrupted
+the affected routes with numerous trains unable to restart. BT Police were advised of possible
+overcrowding at stations and that there were numerous trains stranded with passengers on board. At 1845
+London King’s Cross and London St. Pancras stations were closed due to the number of trapped trains
+between London and Bedford/Peterborough. A high number of the class 700 units were unable to be
+restarted and a fitter was required to attend each unit with a laptop to reboot the units. Arrangements were
+made for passengers on the stranded trains to be evacuated, this was achieved on the lines between
+London St. Pancras and Bedford by 2054 giving a route to/from London St. Pancras. Work to evacuate
+passengers from the stranded trains on the lines between London King’s Cross and Peterborough
+continued with BT Police assisting by escorting fitters to stranded trains to speed up the recovery process.
+Some services were diverted via the Hertford Loop although this was hampered by a stranded unit on the
+Up Hertford Loop at Watton-At-Stone which required trains to operate bi-directionally over the Down
+Hertford Loop. By 2305 passengers from the final two stranded trains had been evacuated and onward
+transport arranged. At the close of this report the remaining empty units that had been stranded were being
+returned to depots. Some cancellations are expected for Govia Thameslink Railway and LNER on
+Saturday morning due to stock displacement.",Three Bridges,51.11691722,-0.16118305800000002,RH10 1LY
+2019-08-09,Eastern (LNE York),CCIL 1995625 ,"Fault No. 765836 / At 0555 signal K361 signal on the Down Moorgate line at Drayton Park line was reported as showing
+blank, holding K359 in the rear at red. At 0616 it was reported as operating correctly but the same defect
+reoccurred at 0747, necessitating it to again be talked past at red. Govia Thameslink Railway reduced,
+amended and diverted some services as a result. The London King’s Cross Shift Signaller Manager
+advised at 0844 that the S&T and this work was completed at 0910. Following successful testing, services
+were signalled normally from 0954.",Drayton Park,51.553090000000005,-0.10570999999999998,N5 1NT
+2019-08-09,Eastern (Anglia),CCIL 1995816 ,"Fault No. 296168 / At 1300 the signaller at Acle reported a complete loss of signalling, with a power failure alarm showing on
+the local charger. Mobile Operations Manager attended at secured the points at Great Yarmouth for train
+movements, with modified working introduced between Great Yarmouth and Acle. Distribution staff
+attended and reported at 1509 that the signalling power supply battery charger was defective. A
+replacement charger was installed and signalling restored at 1633.",Great Yarmouth,52.61218298,1.7209062780000002,NR30 1SD
+2019-08-09,North West and Central (LNWN),CCIL 1995570 ,"At 0148 (Friday) the driver of 1M11, Serco Caledonian Sleeper Ltd, 2340 Glasgow – London Euston,
+reported from Gretna Junction that the train had suffered an air suspension fault. The train went forward
+at 40 mph to Carlisle station for examination by the driver, who reported at 0214 that air suspension faults
+on the last two coaches of the train would require the imposition of a 40 mph speed restriction. However,
+at 0252 the driver advised the train could proceed at line speed. At 0354 the driver reported from Carnforth
+that the fault had reoccurred and the speed of the train would again be reduced to a maximum of 40 mph.
+1M11 arrived at Preston at 0437, 90 mins late, where it was terminated. The ECS departed as 5M11 to
+Wembley Depot at 0724, running at a maximum speed of 40mph.",North West and Central (LNWN),,,
+2019-08-09,Scotland,CCIL 1995727 ,"At 0932 the driver of 1W03, London North Eastern Railway, 0708 Leeds – Aberdeen, reported a loco fault
+on the Down Main platform at Berwick-Upon-Tweed station. The train was terminated there at 1045 after
+the train was declared a failure, with passengers going forward on an alternative service. The failed train
+was later run as ECS to Craigentinny Depot, assisted by a ‘Thunderbird’ locomotive.",Berwick,50.840251,0.16611700000000001,N26 6TA
+2019-08-09,Eastern (LNE York),CCIL 1995735 ,"At 1011 the driver of 2B62, Northern Rail, 0926 Doncaster – Leeds, formed by unit 331108, comprising of
+four coaches, reported losing power near Fitzwilliam station on the Up Doncaster line, with an unspecified
+fault. At 1015 the Wakefield Mobile Operations Manager was summoned to site. 2B62 was on the move
+at 1029 but at 1031 encountered further problems, reported to be a door fault, in the Sandal area. The
+service was on the move by 1040, continuing to destination, where it arrived 51 minutes late at 1101.",Eastern (LNE York),,,
+2019-08-09,Eastern (LNE York),CCIL 1995744 ,"At 1027 the driver of 1P20, TransPennine Express, 0921 Newcastle Central – Manchester Airport, formed
+by unit 185104, reported a fire extinguisher had operated in the centre vehicle between Tollerton and
+Skelton Bridge Junction, north of York. The driver was speaking to their maintenance controller. The Leeds
+sub-ROC Shift Signaller Manager advised the train was on the move, but only with one engine at 1038,
+arriving into York at 1047, where the service was terminated.",Tollerton,54.078568999999995,-1.218105,O61 1RD
+2019-08-09,North West and Central (LNWN),CCIL 1995828 ,"At 1330 the driver of 1L10, East Midlands Trains, 1151 Liverpool Lime Street – Norwich, formed by units
+158852, 158813 and 158863, reported that the engines had gone into ‘idle’ on the Up Hope Valley line
+between Hazel Grove and Edale. The driver declared the train a failure at 1335. An assisting unit running
+as 1Z99 departed Manchester Piccadilly at 1409. The Chinley Mobile Operations Manager advised at 1457
+that 1Z99 had just entered the section to assist the failed train. 1L10 was on the move, with assistance, at",Hazel Grove,53.37756004,-2.122016963,SK7 4EX
+2019-08-09,Scotland,CCIL 1995687 ,"Fault No. 339815 / At 0832 Cathcart Electrical Control Room (ECR) reported that electrical section EB5 on the Up line
+between Paisley and Bishopton had tripped. 2G87, Scotrail, 0804 Glasgow Central – Gourock, reported a
+tree striking the OLE on the Up line at the Glasgow side of Bishopton neutral section. The ECR reported
+at that electrical section tripped when they attempted to close it, with 2G87 in section. The Mobile
+Operations Manager was summoned at 0833 and OLE staff at 0835. 2G16, Scotrail, 0823 Gourock –
+Glasgow Central was trapped between Langbank and Bishopton, with 48 people on board; 1G85, Scotrail,
+0828 Glasgow Central – Gourock was trapped in Bishopton Tunnel with 57 people on board. Shuttle
+services operated Gourock – Port Glasgow, Bogston – Gourock, Wemyss Bay – Port Glasgow and Whinhill
+Wemyss Bay. A 1Z99 diesel rescue train departed Glasgow Queen Street at 0946. The BT Police
+embedded inspector in Scotland ROC reported that they had an Inspector at the access point in Old
+Greenock Road, who established a command post. Staff were deployed to site at 1002 with food and water
+for the stranded passengers. OLE staff reported at 1042 that the catenary wire has parted between L10/25-
+L10/27 with a number of detached droppers between L10/23-L10/29. The rescue of 1G85 and 2G16 was
+completed at 1157, with road transport arranged for passengers from Bishopton station. Repairs to the
+OLE were ongoing at the close of this report and were estimated to be completed by 1100 on Saturday. A
+shuttle train service was arranged to operate between Glasgow Central and Paisley Gilmour Street.",Glasgow Central,55.85974143,-4.257636004,G1 3SL
+2019-08-09,North West and Central (LNWN),CCIL 1995859 ,"Fault No. 861551 / At 1200 a senior technical officer conducting a cab ride, reported tree touching the OLE one mile south of
+Macclesfield station, although it was not then affecting train running. The Longsight OLE supervisor stated
+at 1420 that the tree was quite large and required contacting back as it was touching the catenary wire.
+The breakers were opened at 1431 and the line blocked with some services diverted via Crewe. Longsight
+OLE staff advised at 1546 that the tree had been cut back. The OLE was re-energised, with trains running
+normally from 1547.",North West and Central (LNWN),,,
+2019-08-09,North West and Central (LNWN),CCIL 1995853 ,"At 1200 an incident was created to cover a 50mph ESR due to the weather until the close of service on
+Saturday for the following routes: Oxenholme – Penrith, Oxenholme – Windermere, Settle Junction –
+Appleby, Settle Junction – Carnforth and Littleborough – route boundary.",North West and Central (LNWN),,,
+2019-08-09,Scotland,CCIL 1995836 ,"Fault No. 339837 / At 1400 the driver of 1Z23, ScotRail, 1224 Glasgow Queen Street – Ardlui, reported that the train had
+struck a landslip at the 17 ¼ m.p. between Glen Douglas and Arrochar. The unit was not derailed by the
+impact, the driver examined the train and reported at 1408 that they would be able to move the unit clear
+of the slip site. 1Z23 cleared the site at 1427 and arrived at Ardlui at 1510. Track maintenance and
+Geotechnics staff attended at 1545 and reported at 1610 that 20 tonnes of rock, and two small trees, had
+fallen from a height of 80/100ft into the four-foot over a distance of 30 feet (see below). A site meeting has
+been arranged for 0700 on Saturday with the contractor, designer and on-call Asset Engineer. An action
+plan will be agreed and timescales for remediation provided.",Glen Douglas,56.156589000000004,-4.7798110000000005,G83 7AR
+2019-08-09,Eastern (LNE York),CCIL 1995908 ,"At 1621, 6S26, Colas, 1421 Hunslet – Oxwellmains, activated Sessay Down Slow line WILD with axle 13
+LHS wheel flat, 357 kN, level 2 alarm. The train was stopped and the driver advised to proceed at 30 mph
+to Darlington Up Sidings for RST examination. The vehicle, JPA 7093160075, as per consist, was taken
+out of traffic.",Eastern (LNE York),,,

@@ -38,6 +38,7 @@ def main():
             #    docaslist.append(table_print(block))
         
         #a series of functions to convert single column narrative into a data frame
+        
         docdf = cleanthelist(docaslist)
         docdf = getrouteccil(docdf)
         docdf = getlocation(docdf)
@@ -57,7 +58,7 @@ def main():
 
     exportfile(full_appended_dataset,'appended_output//','nrlog_appended')
 
-    #export_to_blob('appended_output//','nrlog_appended.csv','nr-daily-logs')
+    export_to_blob('appended_output//','nrlog_appended.csv','nr-daily-logs')
 
     
 
@@ -82,7 +83,11 @@ def process_files(todays_data):
         appended_data.to_csv('appended_output//nrlog_appended.csv')
 
     #get apppended data and then remove it
-    appended_data = pd.read_csv('appended_output//nrlog_appended.csv', encoding='cp1252')    
+    try:
+        appended_data = pd.read_csv('appended_output//nrlog_appended.csv', encoding='utf-8')    
+    except UnicodeEncodeError:
+        appended_data = pd.read_csv('appended_output//nrlog_appended.csv', encoding='cp1252')  
+        
     os.remove('appended_output//nrlog_appended.csv')
 
     #join previous joined data and remove false index column
@@ -296,10 +301,12 @@ def exportfile(df,destinationpath,filename,numberoffiles=1):
     print(f"Exporting {filename} to {destinationpath}\n")
     print(f"If you want to check on progress, refresh the folder "+ destinationpath + " and check the size of the " + filename + ".csv file. \n")  
     
+    #catching odd encoding/characters in the source file.
     try:
         df.to_csv(destinationpath + destinationfilename, encoding='cp1252',index=False)
     except UnicodeEncodeError:
         df.to_csv(destinationpath + destinationfilename, encoding='utf-8',index=False)
+
 
 def import_from_blob(container_name,local_file_name):
     try:
