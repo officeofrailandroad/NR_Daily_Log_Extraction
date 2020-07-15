@@ -57,7 +57,7 @@ def main():
 
     exportfile(full_appended_dataset,'appended_output//','nrlog_appended')
 
-    export_to_blob('appended_output//','nrlog_appended.csv','nr-daily-logs')
+    #export_to_blob('appended_output//','nrlog_appended.csv','nr-daily-logs')
 
     
 
@@ -295,7 +295,11 @@ def exportfile(df,destinationpath,filename,numberoffiles=1):
     print(f"Exporting {filename} to {destinationpath}{destinationfilename}\n")
     print(f"Exporting {filename} to {destinationpath}\n")
     print(f"If you want to check on progress, refresh the folder "+ destinationpath + " and check the size of the " + filename + ".csv file. \n")  
-    df.to_csv(destinationpath + destinationfilename, encoding='cp1252',index=False)
+    
+    try:
+        df.to_csv(destinationpath + destinationfilename, encoding='cp1252',index=False)
+    except UnicodeEncodeError:
+        df.to_csv(destinationpath + destinationfilename, encoding='utf-8',index=False)
 
 def import_from_blob(container_name,local_file_name):
     try:
