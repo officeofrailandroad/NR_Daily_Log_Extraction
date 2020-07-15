@@ -170,7 +170,7 @@ def getrouteccil(docdf):
     docdf:      A dataframe with new columns in appropriate order
 
     """
-   
+    
     #replace non-standard delimiter in text: NR are not consistent. surprise, surprise
     docdf['narrative'] = docdf['narrative'].apply(lambda x: x.replace(' - ',' – '))
     docdf['narrative'] = docdf['narrative'].apply(lambda x: x.replace('CCIL', '– CCIL'))
