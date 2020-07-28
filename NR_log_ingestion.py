@@ -50,7 +50,11 @@ def main():
     
     #join each dataframe together
     full_dataset = pd.concat(holding_list)
-        
+    
+    #remove newlines from dataframe
+    print("removing newlines")
+    full_dataset.replace(r'\\n',' ',regex=True,inplace=True)
+
     full_appended_dataset = process_files(full_dataset)
 
     #get previously loaded data
