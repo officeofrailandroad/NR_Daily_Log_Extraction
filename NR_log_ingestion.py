@@ -58,7 +58,7 @@ def main():
 
     exportfile(full_appended_dataset,'appended_output//','nrlog_appended')
 
-    export_to_blob('appended_output//','nrlog_appended.csv','nr-daily-logs')
+    #export_to_blob('appended_output//','nrlog_appended.csv','nr-daily-logs')
 
     
 
@@ -84,9 +84,9 @@ def process_files(todays_data):
 
     #get apppended data and then remove it
     try:
-        appended_data = pd.read_csv('appended_output//nrlog_appended.csv', encoding='utf-8')    
+        appended_data = pd.read_csv('appended_output//nrlog_appended.csv', encoding='cp1252')    
     except UnicodeEncodeError:
-        appended_data = pd.read_csv('appended_output//nrlog_appended.csv', encoding='cp1252')  
+        appended_data = pd.read_csv('appended_output//nrlog_appended.csv', encoding='utf-8')  
         
     os.remove('appended_output//nrlog_appended.csv')
 
@@ -173,6 +173,7 @@ def getrouteccil(docdf):
     
     #replace non-standard delimiter in text: NR are not consistent. surprise, surprise
     docdf['narrative'] = docdf['narrative'].apply(lambda x: x.replace(' - ',' – '))
+    docdf['narrative'] = docdf['narrative'].apply(lambda x: x.replace('–CCIL','– CCIL'))
     docdf['narrative'] = docdf['narrative'].apply(lambda x: x.replace('CCIL', '– CCIL'))
     docdf['narrative'] = docdf['narrative'].apply(lambda x: x.replace('. CCIL', '– CCIL'))
     docdf['narrative'] = docdf['narrative'].apply(lambda x: x.replace('. Fault No. ','/ Fault No. '))
@@ -181,9 +182,14 @@ def getrouteccil(docdf):
     docdf[['route','narrative']] = docdf['narrative'].str.split(' – ',1,expand=True)
     docdf[['ccil','narrative']]  = docdf['narrative'].str.split('/ ',1,expand=True)
     
+    print("this is the narrative in raw. useful to check/n")
     print(docdf['narrative'])
 
+    #remove none rows from docdf
+    docdf.dropna(axis=0,subset=['ccil'],inplace=True)
+
     #remove full stops and hypens from ccil
+    
     docdf['ccil'] = docdf['ccil'].apply(lambda x: x.replace('– CCIL', 'CCIL'))
     docdf['ccil'] = docdf['ccil'].apply(lambda x: x.replace('.',''))
     
