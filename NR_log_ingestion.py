@@ -51,16 +51,14 @@ def main():
     #join each dataframe together
     full_dataset = pd.concat(holding_list)
     
-    #remove newlines from dataframe
+    #remove newlines and carriage returns from dataframe
     print("removing newlines")
     full_dataset.replace(r'\n',' ',regex=True,inplace=True)
     print("removing carriage returns")
     full_dataset.replace(r'\r',' ',regex=True,inplace=True)
-
-    #print("removing newlines")
-    #full_dataset.replace(r'\\n',' ',regex=True,inplace=True)
-    #print("removing carriage returns")
-    #full_dataset.replace(r'\\r',' ',regex=True,inplace=True)
+    print("remove odd character")
+    full_dataset.replace(r'â€“',' ',regex=True,inplace=True)
+    
 
 
     full_appended_dataset = process_files(full_dataset)
@@ -70,7 +68,7 @@ def main():
 
     exportfile(full_appended_dataset,'appended_output//','nrlog_appended')
 
-    #export_to_blob('appended_output//','nrlog_appended.csv','nr-daily-logs')
+    export_to_blob('appended_output//','nrlog_appended.csv','nr-daily-logs')
 
     
 
