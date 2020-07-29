@@ -53,7 +53,15 @@ def main():
     
     #remove newlines from dataframe
     print("removing newlines")
-    full_dataset.replace(r'\\n',' ',regex=True,inplace=True)
+    full_dataset.replace(r'\n',' ',regex=True,inplace=True)
+    print("removing carriage returns")
+    full_dataset.replace(r'\r',' ',regex=True,inplace=True)
+
+    #print("removing newlines")
+    #full_dataset.replace(r'\\n',' ',regex=True,inplace=True)
+    #print("removing carriage returns")
+    #full_dataset.replace(r'\\r',' ',regex=True,inplace=True)
+
 
     full_appended_dataset = process_files(full_dataset)
 
