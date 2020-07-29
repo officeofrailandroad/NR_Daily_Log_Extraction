@@ -56,8 +56,8 @@ def main():
     full_dataset.replace(r'\n',' ',regex=True,inplace=True)
     print("removing carriage returns")
     full_dataset.replace(r'\r',' ',regex=True,inplace=True)
-    print("remove odd character")
-    full_dataset.replace(r'â€“',' ',regex=True,inplace=True)
+    #print("remove odd character")
+    #full_dataset.replace(r'\â€“',' ',regex=True,inplace=True)
     
 
 
@@ -68,7 +68,7 @@ def main():
 
     exportfile(full_appended_dataset,'appended_output//','nrlog_appended')
 
-    export_to_blob('appended_output//','nrlog_appended.csv','nr-daily-logs')
+    #export_to_blob('appended_output//','nrlog_appended.csv','nr-daily-logs')
 
     
 
