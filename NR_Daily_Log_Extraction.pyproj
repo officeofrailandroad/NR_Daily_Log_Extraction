@@ -23,11 +23,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="NR_log_ingestion.py" />
+    <Compile Include="NR_Log_ingestion_pre_CP6.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="location_data\" />
     <Folder Include="appended_output\" />
-    <Folder Include="word_documents\" />
+    <Folder Include="appended_output_preCP6\" />
+    <Folder Include="word_documents_preCP6\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
