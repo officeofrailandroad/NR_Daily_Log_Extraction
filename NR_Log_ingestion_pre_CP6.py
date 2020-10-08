@@ -24,7 +24,7 @@ def main():
     #loop through each file processing it in turn
     holding_list = []
     for word_doc_name in all_files_to_process:
-
+        print(word_doc_name)
         doc = docx.Document(word_doc_name)
 
         docaslist = list()
@@ -39,9 +39,13 @@ def main():
         
         #a series of functions to convert single column narrative into a data frame
         
+        
+        
         docdf = cleanthelist(docaslist)
-        docdf = getrouteccil(docdf)
-        docdf = getlocation(docdf)
+        docdf = getroute(docdf)
+        docdf = joinrows(docdf)
+        #docdf = getrouteccil(docdf)
+        #docdf = getlocation(docdf)
         
         dateofincident = getdate(word_doc_name)
         docdf.insert(0,'incident_date' , dateofincident)
@@ -167,6 +171,29 @@ def getlocation(cleandoc):
 
     return doc_with_geog
 
+def getroute(docdf):
+    """Get route information by extracting the values in brackets  """
+    pattern = r'\((.*?)\)'
+
+    docdf['route1'] = docdf['narrative'].str.extract(pattern)[0]
+    docdf['route'] = docdf['route1']
+    del docdf['route1']
+    
+    docdf['narrative'] = docdf['narrative'].str.replace(pattern,"")
+
+    return docdf
+
+
+def joinrows(df):
+    
+    df['route'].fillna(method='ffill', inplace = True)
+
+    blocks = df['route'].ne(df['route'].shift()).cumsum()
+
+    df.groupby([blocks])['narrative'].agg(' '.join)     
+    exportfile(df,'appended_output_preCP6//','nrlog_appended_rows')
+    return df
+
 
 
 def getrouteccil(docdf):
@@ -218,7 +245,7 @@ def getdate(doc_title):
     Returns:
     dateofincident:    A datetimeobject representing the date of the incident
     """
-    rawdateofincident = doc_title[15:26]
+    rawdateofincident = doc_title[22:33]
     year = int(rawdateofincident[0:5])
     month = int(rawdateofincident[5:7])
     day = int(rawdateofincident[7:10])
@@ -235,30 +262,55 @@ def cleanthelist(text):
     reference point CCIL and appends them and the following paragraph to a new list.  This new list is then converted to a dataframe
     
     Parameters
-    text:       A docx Document object containing the full document
+    text:       A list containing the full document
 
     Returns
     textdf:     A dataframe holding the relevant text documents
     """
     
     finallist = list()
-    
+
     #remove non-reports
     cleanerdoc = list(filter(None,text))
-    #remove first 26 items - the cover page
-    #cleanerdoc = cleanerdoc[26:]
 
+    #lost the cover page
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('NATIONAL OPERATIONS')]
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('FLOOR')]
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('THE QUADRANT ')]
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('ELDER ')]
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('MILTON ')]
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('MK')]
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('Tel:')]
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('01908 ')]
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('Fax')]
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('DAILY INCIDENT')]
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('To help')]
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('\nTable')]
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith(' Table')]
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('Table')]
+    
+    #lose dud fields
     cleanerdoc = [i for i in cleanerdoc if not i.startswith('None')]
     cleanerdoc = [i for i in cleanerdoc if not i.startswith('Disconnected')]
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith(' ')]
+
+    #lose HADB headers
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('HABD')]
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('There are')]
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('This is a list of currently')]
+
+    #lose footers
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('Real Time Performance Figures ')]
+    cleanerdoc = [i for i in cleanerdoc if not i.startswith('END')]
 
     #mask for the CCIL codes
-    ccil = [i for i, s in enumerate(cleanerdoc) if 'CCIL' in s]
+    #ccil = [i for i, s in enumerate(cleanerdoc) if 'CCIL' in s]
 
     #join ccil codes and ccil text
-    for i in ccil:
-        finallist.append(cleanerdoc[i] +" / "+ cleanerdoc[i+1])
+    #for i in ccil:
+    #    finallist.append(cleanerdoc[i] +" / "+ cleanerdoc[i+1])
 
-    textdf = pd.DataFrame(finallist,columns=['narrative'])
+    textdf = pd.DataFrame(cleanerdoc,columns=['narrative'])
 
 
     return textdf
