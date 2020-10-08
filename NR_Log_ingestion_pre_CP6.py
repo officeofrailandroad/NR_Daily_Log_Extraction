@@ -42,6 +42,7 @@ def main():
         
         
         docdf = cleanthelist(docaslist)
+        
         docdf = getroute(docdf)
         docdf = joinrows(docdf)
         #docdf = getrouteccil(docdf)
@@ -190,7 +191,16 @@ def joinrows(df):
 
     blocks = df['route'].ne(df['route'].shift()).cumsum()
 
-    df.groupby([blocks])['narrative'].agg(' '.join)     
+    df['narrative1'] = df.groupby([blocks])['narrative'].agg(' '.join)     
+
+    df.dropna(0,how='any',subset=['narrative1'],inplace=True)
+
+    df = df[df.narrative1!='\n']
+
+
+    df['narrative'] = df['narrative1']
+    del df['narrative1']
+
     exportfile(df,'appended_output_preCP6//','nrlog_appended_rows')
     return df
 
