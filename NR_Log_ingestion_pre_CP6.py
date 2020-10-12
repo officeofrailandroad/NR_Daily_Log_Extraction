@@ -335,7 +335,7 @@ def cleanthelist(text):
 
     #join the items in list together to merge multiple rows of text
     cleanerdoc = ' '.join(cleanerdoc)
-    print(cleanerdoc)
+
     
     listofroutes = ['(WX)','(SE-SX)','(WS/CU)','(LNE&EM-York)','(Sc)','(WN)','(LNWN)','(SE-KT)','(LNE&EM-York)','(A)','(LNE&EM-Derby)','(SE-SX)','(LNWS)']
     #split by '(' to identify new reports at start; then  put delimter back in
@@ -343,8 +343,10 @@ def cleanthelist(text):
     split_pattern = r'(CCIL \d{7}) | (CCIL \d{7}.) | (No CCIL raised.) | (CCIL \d{7}.\t)'
     cleanerdoclist = list(filter(None,re.split(split_pattern,cleanerdoc)))
     
+    temp = None
     #need to join the narrative to CCIL items
-
+    for counter,item in enumerate(cleanerdoclist):
+        print(str(counter) + ":" + item)
 
 
     
