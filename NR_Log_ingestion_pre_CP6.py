@@ -43,10 +43,16 @@ def main():
         
         docdf = cleanthelist(docaslist)
         
-        docdf = getroute(docdf)
-        docdf = joinrows(docdf)
-        #docdf = getrouteccil(docdf)
-        #docdf = getlocation(docdf)
+        
+        #docdf = getroute(docdf)
+
+        print(docdf)
+
+        #docdf = joinrows(docdf)
+        
+        
+        ##docdf = getrouteccil(docdf)
+        ##docdf = getlocation(docdf)
         
         dateofincident = getdate(word_doc_name)
         docdf.insert(0,'incident_date' , dateofincident)
@@ -175,10 +181,9 @@ def getlocation(cleandoc):
 def getroute(docdf):
     """Get route information by extracting the values in brackets  """
     pattern = r'\((.*?)\)'
+    
+    docdf['route'] = docdf['narrative'].str.extract(pattern)[0]
 
-    docdf['route1'] = docdf['narrative'].str.extract(pattern)[0]
-    docdf['route'] = docdf['route1']
-    del docdf['route1']
     
     docdf['narrative'] = docdf['narrative'].str.replace(pattern,"")
 
@@ -186,21 +191,29 @@ def getroute(docdf):
 
 
 def joinrows(df):
+
+    df = df[df.narrative !='\n']
+    print("this is the data frame")
     
+
     df['route'].fillna(method='ffill', inplace = True)
 
     blocks = df['route'].ne(df['route'].shift()).cumsum()
 
+    print(blocks)
     df['narrative1'] = df.groupby([blocks])['narrative'].agg(' '.join)     
 
     df.dropna(0,how='any',subset=['narrative1'],inplace=True)
 
     df = df[df.narrative1!='\n']
 
+    
+
+
 
     df['narrative'] = df['narrative1']
     del df['narrative1']
-
+    print(df)
     exportfile(df,'appended_output_preCP6//','nrlog_appended_rows')
     return df
 
@@ -320,9 +333,25 @@ def cleanthelist(text):
     #for i in ccil:
     #    finallist.append(cleanerdoc[i] +" / "+ cleanerdoc[i+1])
 
-    textdf = pd.DataFrame(cleanerdoc,columns=['narrative'])
+    #join the items in list together to merge multiple rows of text
+    cleanerdoc = ' '.join(cleanerdoc)
+    print(cleanerdoc)
+    
+    listofroutes = ['(WX)','(SE-SX)','(WS/CU)','(LNE&EM-York)','(Sc)','(WN)','(LNWN)','(SE-KT)','(LNE&EM-York)','(A)','(LNE&EM-Derby)','(SE-SX)','(LNWS)']
+    #split by '(' to identify new reports at start; then  put delimter back in
+    
+    split_pattern = r'(CCIL \d{7}) | (CCIL \d{7}.) | (No CCIL raised.) | (CCIL \d{7}.\t)'
+    cleanerdoclist = list(filter(None,re.split(split_pattern,cleanerdoc)))
+    
+    #need to join the narrative to CCIL items
 
 
+
+    
+    #convert to dataframe
+    textdf = pd.DataFrame(cleanerdoclist,columns=['narrative'])
+    print(cleanerdoclist)
+    #textdf = pd.DataFrame(cleanerdoc,columns=['narrative'])
     return textdf
 
 
