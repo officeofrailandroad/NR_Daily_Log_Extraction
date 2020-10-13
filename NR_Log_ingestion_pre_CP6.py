@@ -288,7 +288,7 @@ def cleanthelist(text):
     #join the items in list together to merge multiple rows of text
     cleanerdoc = ' '.join(cleanerdoc)
     
-    split_pattern = r'(CCIL \d{7}) | (CCIL \d{7}.) | (No CCIL raised.) | (CCIL \d{7}.\t | (CCIL.\d{7}) | (CCIL.\d{7}.))'
+    split_pattern = r'(CCIL \d{7}) | (CCIL \d{7}.) | (No CCIL raised.) | (CCIL \d{7}.\t | (CCIL.\d{7}) | (CCIL.\d{7}. | (No CCIL raised)))'
     cleanerdoclist = list(filter(None,re.split(split_pattern,cleanerdoc)))
     
     #for items in cleanerdoclist:
