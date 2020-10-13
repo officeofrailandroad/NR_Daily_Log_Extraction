@@ -7,6 +7,7 @@ from docx.table import _Cell, Table
 from docx.text.paragraph import Paragraph
 import datetime
 import re
+from re import search
 import pandas as pd
 import numpy as np
 from glob import glob
@@ -39,20 +40,16 @@ def main():
         
         #a series of functions to convert single column narrative into a data frame
         
-        
-        
         docdf = cleanthelist(docaslist)
         
+        docdf = getroute(docdf)
         
-        #docdf = getroute(docdf)
 
+        docdf = getrouteccil(docdf)
+
+        print("after get ccil")
         print(docdf)
-
-        #docdf = joinrows(docdf)
-        
-        
-        ##docdf = getrouteccil(docdf)
-        ##docdf = getlocation(docdf)
+        docdf = getlocation(docdf)
         
         dateofincident = getdate(word_doc_name)
         docdf.insert(0,'incident_date' , dateofincident)
@@ -190,35 +187,6 @@ def getroute(docdf):
     return docdf
 
 
-def joinrows(df):
-
-    df = df[df.narrative !='\n']
-    print("this is the data frame")
-    
-
-    df['route'].fillna(method='ffill', inplace = True)
-
-    blocks = df['route'].ne(df['route'].shift()).cumsum()
-
-    print(blocks)
-    df['narrative1'] = df.groupby([blocks])['narrative'].agg(' '.join)     
-
-    df.dropna(0,how='any',subset=['narrative1'],inplace=True)
-
-    df = df[df.narrative1!='\n']
-
-    
-
-
-
-    df['narrative'] = df['narrative1']
-    del df['narrative1']
-    print(df)
-    exportfile(df,'appended_output_preCP6//','nrlog_appended_rows')
-    return df
-
-
-
 def getrouteccil(docdf):
     """
     This splits the data frame column to produce new columns holding route and ccil information
@@ -230,31 +198,19 @@ def getrouteccil(docdf):
     docdf:      A dataframe with new columns in appropriate order
 
     """
-    
-    #replace non-standard delimiter in text: NR are not consistent. surprise, surprise
-    docdf['narrative'] = docdf['narrative'].apply(lambda x: x.replace(' - ',' – '))
-    docdf['narrative'] = docdf['narrative'].apply(lambda x: x.replace('–CCIL','– CCIL'))
-    docdf['narrative'] = docdf['narrative'].apply(lambda x: x.replace('CCIL', '– CCIL'))
-    docdf['narrative'] = docdf['narrative'].apply(lambda x: x.replace('. CCIL', '– CCIL'))
-    docdf['narrative'] = docdf['narrative'].apply(lambda x: x.replace('. Fault No. ','/ Fault No. '))
+    find_pattern = r'CCIL \d{7}'
 
-    #split the narrative column by the appropriate delimiter
-    docdf[['route','narrative']] = docdf['narrative'].str.split(' – ',1,expand=True)
-    docdf[['ccil','narrative']]  = docdf['narrative'].str.split('/ ',1,expand=True)
+    docdf['ccil'] = docdf['narrative'].str.findall(find_pattern)
     
-    print("this is the narrative in raw. useful to check/n")
-    print(docdf['narrative'])
-
-    #remove none rows from docdf
-    docdf.dropna(axis=0,subset=['ccil'],inplace=True)
-
-    #remove full stops and hypens from ccil
     
-    docdf['ccil'] = docdf['ccil'].apply(lambda x: x.replace('– CCIL', 'CCIL'))
-    docdf['ccil'] = docdf['ccil'].apply(lambda x: x.replace('.',''))
+    ## convert list to a string
+    docdf['ccil'] = docdf['ccil'].apply(lambda x : ''.join([a for a in x]))
     
-    docdf = docdf[['route','ccil','narrative']]
+    #move ccil column to match narrative entries
+    docdf['ccil'] = docdf['ccil'].shift(-1) 
 
+    #remove redundant ccil-based rows
+    docdf = docdf[~docdf['narrative'].str.match('CCIL')]
     return docdf
     
 
@@ -326,36 +282,37 @@ def cleanthelist(text):
     cleanerdoc = [i for i in cleanerdoc if not i.startswith('Real Time Performance Figures ')]
     cleanerdoc = [i for i in cleanerdoc if not i.startswith('END')]
 
-    #mask for the CCIL codes
-    #ccil = [i for i, s in enumerate(cleanerdoc) if 'CCIL' in s]
-
-    #join ccil codes and ccil text
-    #for i in ccil:
-    #    finallist.append(cleanerdoc[i] +" / "+ cleanerdoc[i+1])
+    #remove carriage returns
+    cleanerdoc = [x for x in cleanerdoc if x != "\n"]
 
     #join the items in list together to merge multiple rows of text
     cleanerdoc = ' '.join(cleanerdoc)
-
     
-    listofroutes = ['(WX)','(SE-SX)','(WS/CU)','(LNE&EM-York)','(Sc)','(WN)','(LNWN)','(SE-KT)','(LNE&EM-York)','(A)','(LNE&EM-Derby)','(SE-SX)','(LNWS)']
-    #split by '(' to identify new reports at start; then  put delimter back in
-    
-    split_pattern = r'(CCIL \d{7}) | (CCIL \d{7}.) | (No CCIL raised.) | (CCIL \d{7}.\t)'
+    split_pattern = r'(CCIL \d{7}) | (CCIL \d{7}.) | (No CCIL raised.) | (CCIL \d{7}.\t | (CCIL.\d{7}) | (CCIL.\d{7}.))'
     cleanerdoclist = list(filter(None,re.split(split_pattern,cleanerdoc)))
     
-    temp = None
-    #need to join the narrative to CCIL items
-    for counter,item in enumerate(cleanerdoclist):
-        print(str(counter) + ":" + item)
+    #for items in cleanerdoclist:
+    #    print(items)
 
-
+    #rejoin the stray CCIL info by joining odd and even list items together
+    #narrativeandccilldoclist = []
+    #for i in range(0,len(cleanerdoclist),2):
+    #    narrativeandccilldoclist.append(cleanerdoclist[i] + " " + cleanerdoclist[i+1])
+    
+    #remove trailing spaces 
+    finaldoclist = []
+    for item in cleanerdoclist:
+        finaldoclist.append(item.strip())
     
     #convert to dataframe
-    textdf = pd.DataFrame(cleanerdoclist,columns=['narrative'])
-    print(cleanerdoclist)
-    
+    textdf = pd.DataFrame(finaldoclist,columns=['narrative'])
+
     return textdf
 
+def deduplist(example_list):
+    seen = set()
+    seen_add = seen.add
+    return [x for x in example_list if not (x in seen or seen_add(x))]
 
 ##unashamedly stolen from https://github.com/python-openxml/python-docx/issues/276
 def iter_block_items(parent):
