@@ -353,7 +353,7 @@ def cleanthelist(text):
     #convert to dataframe
     textdf = pd.DataFrame(cleanerdoclist,columns=['narrative'])
     print(cleanerdoclist)
-    #textdf = pd.DataFrame(cleanerdoc,columns=['narrative'])
+    
     return textdf
 
 
