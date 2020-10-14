@@ -202,9 +202,11 @@ def getrouteccil(docdf):
     find_pattern = r'CCIL \d{7}'
     docdf['ccil'] = docdf['narrative'].str.findall(find_pattern)
     
-    find_pattern_full_stop = r'CCIL \d{7}\.'
-    docdf['ccil'] = docdf['narrative'].str.findall(find_pattern_full_stop)
+    #find_pattern_full_stop = r'CCIL \d{7}\.'
+    #docdf['ccil'] = docdf['narrative'].str.findall(find_pattern_full_stop)
     
+    #find_pattern_full_stop_inside = r'CCIL.\d{7}\.'
+    #docdf['ccil'] = docdf['narrative'].str.findall(find_pattern_full_stop_inside)
     
     ## convert list to a string
     docdf['ccil'] = docdf['ccil'].apply(lambda x : ''.join([a for a in x]))
