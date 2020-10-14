@@ -47,8 +47,7 @@ def main():
 
         docdf = getrouteccil(docdf)
 
-        print("after get ccil")
-        print(docdf)
+        
         docdf = getlocation(docdf)
         
         dateofincident = getdate(word_doc_name)
@@ -71,6 +70,7 @@ def main():
 
     full_appended_dataset = process_files(full_dataset)
 
+    print(full_appended_dataset)
     #get previously loaded data
     #import_from_blob('nr-daily-logs','nrlog_appended.csv')
 
@@ -198,9 +198,12 @@ def getrouteccil(docdf):
     docdf:      A dataframe with new columns in appropriate order
 
     """
+    #Find the pattern of ccil with or without a full stop!
     find_pattern = r'CCIL \d{7}'
-
     docdf['ccil'] = docdf['narrative'].str.findall(find_pattern)
+    
+    find_pattern_full_stop = r'CCIL \d{7}\.'
+    docdf['ccil'] = docdf['narrative'].str.findall(find_pattern_full_stop)
     
     
     ## convert list to a string
@@ -209,8 +212,15 @@ def getrouteccil(docdf):
     #move ccil column to match narrative entries
     docdf['ccil'] = docdf['ccil'].shift(-1) 
 
-    #remove redundant ccil-based rows
+    #remove redundant ccil-based rows, first for CCIL raised and then non CCIL raised
     docdf = docdf[~docdf['narrative'].str.match('CCIL')]
+    docdf = docdf[docdf['route'].notnull()]
+
+    #fill blanks with "No CCIL raised"
+    #docdf['ccil'] = docdf['ccil'].str.replace('  ','No CCIL raised')
+    print(type(docdf['ccil']))
+
+
     return docdf
     
 
