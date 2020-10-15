@@ -198,31 +198,23 @@ def getrouteccil(docdf):
     docdf:      A dataframe with new columns in appropriate order
 
     """
-    #Find the pattern of ccil with or without a full stop!
-    find_pattern = r'CCIL \d{7}'
+    ##Find the pattern of ccil with or without a full stop!
+    find_pattern = r'(\d{7}. | \d{7})'
     docdf['ccil'] = docdf['narrative'].str.findall(find_pattern)
-    
-    #find_pattern_full_stop = r'CCIL \d{7}\.'
-    #docdf['ccil'] = docdf['narrative'].str.findall(find_pattern_full_stop)
-    
-    #find_pattern_full_stop_inside = r'CCIL.\d{7}\.'
-    #docdf['ccil'] = docdf['narrative'].str.findall(find_pattern_full_stop_inside)
     
     ## convert list to a string
     docdf['ccil'] = docdf['ccil'].apply(lambda x : ''.join([a for a in x]))
     
     #move ccil column to match narrative entries
     docdf['ccil'] = docdf['ccil'].shift(-1) 
+    
 
     #remove redundant ccil-based rows, first for CCIL raised and then non CCIL raised
     docdf = docdf[~docdf['narrative'].str.match('CCIL')]
     docdf = docdf[docdf['route'].notnull()]
 
     #fill blanks with "No CCIL raised"
-    #docdf['ccil'] = docdf['ccil'].str.replace('  ','No CCIL raised')
-    print(type(docdf['ccil']))
-
-
+    #not working the empty string return does not register as NULL nor '' nor ' '    
     return docdf
     
 
