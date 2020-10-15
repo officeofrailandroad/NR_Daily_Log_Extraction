@@ -25,13 +25,13 @@
     <Compile Include="NR_Log_ingestion_pre_CP6.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Text_mining_tf_idf.py" />
+    <Compile Include="text_mining_tf_idf.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="location_data\" />
     <Folder Include="appended_output\" />
     <Folder Include="appended_output_preCP6\" />
-    <Folder Include="word_documents_preCP6\" />
+    <Folder Include="word_documents\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

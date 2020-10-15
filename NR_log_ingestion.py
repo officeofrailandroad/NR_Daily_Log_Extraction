@@ -12,7 +12,7 @@ import numpy as np
 from glob import glob
 import os
 from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
-
+#from text_mining_tf_idf import text_mining
 
 def main():
     """
@@ -64,13 +64,16 @@ def main():
     full_appended_dataset = process_files(full_dataset)
 
     #get previously loaded data
-    #import_from_blob('nr-daily-logs','nrlog_appended.csv')
+    import_from_blob('nr-daily-logs','nrlog_appended.csv')
 
     exportfile(full_appended_dataset,'appended_output//','nrlog_appended')
 
     #export_to_blob('appended_output//','nrlog_appended.csv','nr-daily-logs')
 
+    #get previously loaded data
+    #  text_to_mind = import_from_blob('nr-daily-logs','nrlog_appended.csv')
     
+
 
 def process_files(todays_data):
     """

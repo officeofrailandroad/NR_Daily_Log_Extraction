@@ -19,10 +19,10 @@ nltk.download('stopwords')
 nltk.download('punkt')
 
 
-def text_mining_tf_idf(infilepath , infilename, outfilepath, infilename):
+def text_mining(input_file):
 
     print("about to start producing tf-idf data")
-    df = pd.read_csv('appended_output_preCP6\Pre_CP6_test.csv',encoding='cp1252')
+    df = pd.read_csv(input_file,encoding='cp1252')
     df.incident_date = pd.to_datetime(df.incident_date)
 
     def clean_text(text):
@@ -101,4 +101,4 @@ def text_mining_tf_idf(infilepath , infilename, outfilepath, infilename):
     df['top_words'] = all_top_words
 
     # save to csv
-    df.to_csv('appended_output_preCP6\Pre_CP6_test_text_mining_output.csv',encoding='cp1252')
+    df.to_csv('appended_output\appended_data_with_text_mining.csv',encoding='cp1252')
