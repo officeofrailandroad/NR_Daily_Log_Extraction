@@ -25,7 +25,7 @@
     <Compile Include="NR_Log_ingestion_pre_CP6.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Text_mining_tf-idf.py" />
+    <Compile Include="Text_mining_tf_idf.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="location_data\" />
