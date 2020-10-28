@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="blob_modules.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="NR_log_ingestion.py" />
     <Compile Include="NR_Log_ingestion_pre_CP6.py">
       <SubType>Code</SubType>
@@ -31,6 +34,7 @@
     <Folder Include="location_data\" />
     <Folder Include="appended_output\" />
     <Folder Include="appended_output_preCP6\" />
+    <Folder Include="data_for_text_mining\" />
     <Folder Include="word_documents\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
