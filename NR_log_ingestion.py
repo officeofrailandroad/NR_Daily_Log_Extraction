@@ -21,6 +21,7 @@ def main():
     #get a list of all docx files that need to be loaded
     all_files_to_process = glob('word_documents/*.docx')
     
+    print(all_files_to_process)
     #loop through each file processing it in turn
     holding_list = []
     for word_doc_name in all_files_to_process:
@@ -66,7 +67,7 @@ def main():
     #get previously loaded data
     import_from_blob('nr-daily-logs','nrlog_appended.csv')
 
-    exportfile(full_appended_dataset,'appended_output//','nrlog_appended')
+    exportfile(full_appended_dataset,'appended_output//','nrlog_appended_test')
 
     #export_to_blob('appended_output//','nrlog_appended.csv','nr-daily-logs')
 
@@ -97,9 +98,9 @@ def process_files(todays_data):
 
     #get apppended data and then remove it
     try:
-        appended_data = pd.read_csv('appended_output//nrlog_appended.csv', encoding='cp1252')    
+        appended_data = pd.read_csv(r"appended_output\nrlog_appended.csv", encoding='cp1252')    
     except UnicodeEncodeError:
-        appended_data = pd.read_csv('appended_output//nrlog_appended.csv', encoding='utf-8')  
+        appended_data = pd.read_csv(r'appended_output\nrlog_appended.csv', encoding='utf-8')  
         
     os.remove('appended_output//nrlog_appended.csv')
 

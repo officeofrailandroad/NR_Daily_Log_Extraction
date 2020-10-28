@@ -76,7 +76,7 @@ def main():
     #get previously loaded data
     #import_from_blob('nr-daily-logs','nrlog_appended.csv')
 
-    exportfile(full_appended_dataset,'appended_output_preCP6//','nrlog_appended')
+    exportfile(full_appended_dataset,'appended_output_preCP6//','nrlog_appended_test')
 
     #export_to_blob('appended_output_preCP6//','nrlog_appended_preCP6.csv','nr-daily-logs')
 

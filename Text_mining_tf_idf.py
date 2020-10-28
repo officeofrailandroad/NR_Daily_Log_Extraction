@@ -13,7 +13,7 @@ from nltk.corpus import stopwords
 from textblob import TextBlob as tb
 from tqdm import tqdm
 from blob_modules import import_from_blob, export_to_blob
-
+from NR_log_ingestion import exportfile
 # !python -m spacy download en_core_web_sm
 
 nltk.download('wordnet')
@@ -21,7 +21,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 
 def main():
-    import_from_blob()
+    #import_from_blob()
     text_mining('appended_output')
 
 
@@ -108,7 +108,7 @@ def text_mining(input_file):
 
     # save to csv
     df.to_csv('appended_output\appended_data_with_text_mining.csv',encoding='cp1252')
-
+    exportfile(df,'appended_output//','nrlog_appended_text_mine')
 
 if __name__ == '__main__':
     main()
