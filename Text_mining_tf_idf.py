@@ -22,14 +22,15 @@ nltk.download('punkt')
 
 def main():
     #import_from_blob()
-    text_mining('appended_output/nrlog_appended.csv')
+    text_mining('appended_output/nrlog_appended_test.csv')
 
 
 def text_mining(input_file):
 
     print("about to start producing tf-idf data")
-    df = pd.read_csv(input_file,encoding='utf-8')
+    df = pd.read_csv(input_file,encoding='latin1')
     
+    print("cleaning dates")
     df.incident_date = pd.to_datetime(df.incident_date)
 
     def clean_text(text):
