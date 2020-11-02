@@ -22,7 +22,7 @@ def main():
     This is the main function for the extraction of NR Daily log data
     """
     #get a list of all docx files that need to be loaded
-    all_files_to_process = glob('word_documents_preCP6/*.docx')
+    all_files_to_process = glob('word_documents/*.docx')
     
     #loop through each file processing it in turn
     holding_list = []
@@ -100,15 +100,17 @@ def process_files(todays_data):
     if not list_of_files:
         appended_data = pd.DataFrame(columns=['incident_date','route','ccil','narrative','found_location','latitude','longitude','postcode']   )
     
-        appended_data.to_csv('appended_output_preCP6//nrlog_appended.csv')
+        appended_data.to_csv('appended_output_preCP6//nrlog_appended_test_file.csv')
+
+    import_from_blob('nr-daily-logs','nrlog_appended_test_file.csv')
 
     #get apppended data and then remove it
     try:
-        appended_data = pd.read_csv('appended_output_preCP6//nrlog_appended.csv', encoding='cp1252')    
+        appended_data = pd.read_csv('appended_output_preCP6//nrlog_appended_test_file.csv', encoding='cp1252')    
     except UnicodeEncodeError:
-        appended_data = pd.read_csv('appended_output_preCP6//nrlog_appended.csv', encoding='utf-8')  
+        appended_data = pd.read_csv('appended_output_preCP6//nrlog_appended_test_file.csv', encoding='utf-8')  
         
-    os.remove('appended_output_preCP6//nrlog_appended.csv')
+    #os.remove('appended_output_preCP6//nrlog_appended_test_file.csv')
 
     #join previous joined data and remove false index column
     all_data = pd.concat([appended_data,todays_data],ignore_index=True)
@@ -231,6 +233,7 @@ def getdate(doc_title):
     dateofincident:    A datetimeobject representing the date of the incident
     """
     rawdateofincident = doc_title[22:33]
+    print(rawdateofincident)
     year = int(rawdateofincident[0:5])
     month = int(rawdateofincident[5:7])
     day = int(rawdateofincident[7:10])

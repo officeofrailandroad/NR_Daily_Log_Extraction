@@ -110,7 +110,7 @@ def text_mining(input_file):
 
     # save to csv
     df.to_csv('appended_output\appended_data_with_text_mining.csv',encoding='cp1252')
-    exportfile(df,'appended_output/','nrlog_appended_text_mine')
+    #exportfile(df,'appended_output/','nrlog_appended_text_mine')
 
 if __name__ == '__main__':
     main()

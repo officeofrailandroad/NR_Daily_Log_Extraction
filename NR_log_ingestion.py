@@ -12,6 +12,7 @@ import numpy as np
 from glob import glob
 import os
 from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
+from blob_modules import export_to_blob, import_from_blob
 #from text_mining_tf_idf import text_mining
 
 def main():
@@ -65,11 +66,11 @@ def main():
     full_appended_dataset = process_files(full_dataset)
 
     #get previously loaded data
-    import_from_blob('nr-daily-logs','nrlog_appended.csv')
+    #import_from_blob('nr-daily-logs','nrlog_appended_test_file.csv')
 
-    exportfile(full_appended_dataset,'appended_output//','nrlog_appended_test')
+    exportfile(full_appended_dataset,'appended_output//','nrlog_appended_test.csv')
 
-    #export_to_blob('appended_output//','nrlog_appended.csv','nr-daily-logs')
+    export_to_blob('appended_output/','nrlog_appended_test.csv','nr-daily-logs')
 
     #get previously loaded data
     #  text_to_mind = import_from_blob('nr-daily-logs','nrlog_appended.csv')
@@ -88,7 +89,7 @@ def process_files(todays_data):
     all_data:       A pandas dataframe holding the latest and previously appended data
     """
 
-    list_of_files = glob('appended_output//nrlog_appended.csv')
+    list_of_files = glob('appended_output\nrlog_appended.csv')
 
     #first run when no appended data exists, create blank dataframe
     if not list_of_files:
@@ -96,17 +97,29 @@ def process_files(todays_data):
     
         appended_data.to_csv('appended_output//nrlog_appended.csv')
 
+    #os.remove('appended_output//nrlog_appended_test.csv')
     #get apppended data and then remove it
+    print("here's the import")
+    #import_from_blob('nr-daily-logs','nrlog_appended_test.csv','appended_output//nrlog_appended_test.csv')
+    import_from_blob('nr-daily-logs','nrlog_appended_test.csv','appended_output//nrlog_appended_test.csv')
+    
     try:
-        appended_data = pd.read_csv(r"appended_output\nrlog_appended.csv", encoding='cp1252')    
+        appended_data = pd.read_csv(r"appended_output\nrlog_appended_test.csv", encoding='latin1')    
     except UnicodeEncodeError:
-        appended_data = pd.read_csv(r'appended_output\nrlog_appended.csv', encoding='utf-8')  
+        appended_data = pd.read_csv(r'appended_output\nrlog_appended_test.csv', encoding='utf-8')  
+    
+    print("test data")
+    print(appended_data)
+    print("data from word doc")
+    print(todays_data)
         
-    os.remove('appended_output//nrlog_appended.csv')
+    #os.remove('appended_output//nrlog_appended_test.csv')
 
     #join previous joined data and remove false index column
     all_data = pd.concat([appended_data,todays_data],ignore_index=True)
     all_data = all_data.loc[:, ~all_data.columns.str.contains('^Unnamed')]
+
+    print(all_data)
 
     return all_data
 
@@ -328,70 +341,70 @@ def exportfile(df,destinationpath,filename,numberoffiles=1):
         df.to_csv(destinationpath + destinationfilename, encoding='utf-8',index=False)
 
 
-def import_from_blob(container_name,local_file_name):
-    try:
-        # Retrieve the connection string for use with the application. The storage
-        # connection string is stored in an environment variable on the machine
-        # running the application called AZURE_STORAGE_CONNECTION_STRING. If the environment variable is
-        # created after the application is launched in a console or with Visual Studio,
-        # the shell or application needs to be closed and reloaded to take the
-        # environment variable into account.
+#def import_from_blob(container_name,local_file_name):
+#    try:
+#        # Retrieve the connection string for use with the application. The storage
+#        # connection string is stored in an environment variable on the machine
+#        # running the application called AZURE_STORAGE_CONNECTION_STRING. If the environment variable is
+#        # created after the application is launched in a console or with Visual Studio,
+#        # the shell or application needs to be closed and reloaded to take the
+#        # environment variable into account.
         
-        connect_str = os.getenv('AZURE_STORAGE_CONNECTION_STRING')
+#        connect_str = os.getenv('AZURE_STORAGE_CONNECTION_STRING')
         
-        # Create the BlobServiceClient object which will be used to connect a container client
-        blob_service_client = BlobServiceClient.from_connection_string(connect_str)
+#        # Create the BlobServiceClient object which will be used to connect a container client
+#        blob_service_client = BlobServiceClient.from_connection_string(connect_str)
 
-        # Define where the file will be downloaded
-        download_file_path_and_name = 'appended_output//nrlog_appended.csv'
+#        # Define where the file will be downloaded
+#        download_file_path_and_name = 'appended_output//nrlog_appended.csv'
 
-        #get the container location
-        blob_client = blob_service_client.get_blob_client(container=container_name, blob=local_file_name)
+#        #get the container location
+#        blob_client = blob_service_client.get_blob_client(container=container_name, blob=local_file_name)
 
-        print("\Downloading historic NR daily log data from Azure Storage as blob:\t" + local_file_name)
-        #down the file with a context handler
-        with open(download_file_path_and_name, "wb") as download_file:
-            download_file.write(blob_client.download_blob().readall())
+#        print("\Downloading historic NR daily log data from Azure Storage as blob:\t" + local_file_name)
+#        #down the file with a context handler
+#        with open(download_file_path_and_name, "wb") as download_file:
+#            download_file.write(blob_client.download_blob().readall())
 
-    except Exception as ex:
-        print('Exception:')
-        print(ex)
+#    except Exception as ex:
+#        print('Exception:')
+#        print(ex)
 
 
-def export_to_blob(source_path,source_file_name,container_name):
-    try:
+#def export_to_blob(source_path,source_file_name,container_name):
+#    try:
         
-        # Retrieve the connection string for use with the application. The storage
-        # connection string is stored in an environment variable on the machine
-        # running the application called AZURE_STORAGE_CONNECTION_STRING. If the environment variable is
-        # created after the application is launched in a console or with Visual Studio,
-        # the shell or application needs to be closed and reloaded to take the
-        # environment variable into account.
-        connect_str = os.getenv('AZURE_STORAGE_CONNECTION_STRING')
+#        # Retrieve the connection string for use with the application. The storage
+#        # connection string is stored in an environment variable on the machine
+#        # running the application called AZURE_STORAGE_CONNECTION_STRING. If the environment variable is
+#        # created after the application is launched in a console or with Visual Studio,
+#        # the shell or application needs to be closed and reloaded to take the
+#        # environment variable into account.
+#        connect_str = os.getenv('AZURE_STORAGE_CONNECTION_STRING')
 
-        # Create the BlobServiceClient object which will be used to connect a container client
-        blob_service_client = BlobServiceClient.from_connection_string(connect_str)
+#        # Create the BlobServiceClient object which will be used to connect a container client
+#        blob_service_client = BlobServiceClient.from_connection_string(connect_str)
 
-        # Define the container
-        container_client = blob_service_client.get_container_client(container_name)
+#        # Define the container
+#        container_client = blob_service_client.get_container_client(container_name)
 
-        # Create a file in local data directory to upload and download
-        local_path = source_path
-        local_file_name = source_file_name
-        upload_file_path = os.path.join(local_path, local_file_name)
+#        # Create a file in local data directory to upload and download
+#        local_path = source_path
+#        local_file_name = source_file_name
+#        upload_file_path = os.path.join(local_path, local_file_name)
 
-        # Create a blob client using the local file name as the name for the blob
-        blob_client = blob_service_client.get_blob_client(container=container_name, blob=local_file_name)
+#        # Create a blob client using the local file name as the name for the blob
+#        blob_client = blob_service_client.get_blob_client(container=container_name, blob=local_file_name)
 
-        print("\nUploading NR daily log data to Azure Storage as blob:\t" + local_file_name)
+#        print("\nUploading NR daily log data to Azure Storage as blob:\t" + local_file_name)
 
-        # Upload the created file
-        with open(upload_file_path, "rb") as data:
-            blob_client.upload_blob(data,overwrite=True)
+#        # Upload the created file
+#        with open(upload_file_path, "rb") as data:
+#            blob_client.upload_blob(data,overwrite=True)
 
-    except Exception as ex:
-        print('Exception:')
-        print(ex)
+#    except Exception as ex:
+#        print('Exception:')
+#        print(ex)
 
 
 if __name__ == '__main__':
