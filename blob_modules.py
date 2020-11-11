@@ -21,7 +21,7 @@ def import_from_blob(container_name,local_file_name, downloadfilepathandname):
         #get the container location
         blob_client = blob_service_client.get_blob_client(container=container_name, blob=local_file_name)
 
-        print("\Downloading historic NR daily log data from Azure Storage as blob:\t" + local_file_name)
+        print("Downloading historic NR daily log data from Azure Storage as blob:\t" + local_file_name)
         #down the file with a context handler
         with open(downloadfilepathandname, "wb") as download_file:
             download_file.write(blob_client.download_blob().readall())
