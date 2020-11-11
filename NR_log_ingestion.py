@@ -255,7 +255,7 @@ def getdate(doc_title):
     day = int(rawdateofincident[7:10])
 
     dateofincident = datetime.date(year,month,day)
-    print(f"Now processing data for {day}/{month}/{year}")
+    print(f"Have finished processing data for {day}/{month}/{year}")
 
     return dateofincident
 
