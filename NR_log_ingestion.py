@@ -66,7 +66,7 @@ def main():
 
     exportfile(full_appended_dataset,'appended_output//','nrlog_appended.csv')
 
-    #export_to_blob('appended_output/','nrlog_appended.csv','nr-daily-logs')
+    export_to_blob('appended_output/','nrlog_appended.csv','nr-daily-logs')
     
     print("file exported to blob so file held locally is removed")
     os.remove('appended_output//nrlog_appended.csv')
@@ -77,6 +77,17 @@ def main():
 
 
 def move_processed_word_docs(origin, destination):
+    """  
+    A function to move processed word documents out of the word_documents folder and into the already processed folder
+    Note: this function does not handle the case of the word file already being in the destination folder
+
+    Parameters:
+    origin:         A string holding the file path where processed files were initially placed
+    destination:    A strong holding the path path of the destination folder.
+
+    Returns:
+    NOne, but moves files as required
+    """
     files = glob(os.path.join(origin,"*.docx"))
     print(files)
     for file in files:
