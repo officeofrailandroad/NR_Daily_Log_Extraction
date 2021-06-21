@@ -68,8 +68,8 @@ def main():
 
     export_to_blob('appended_output/','nrlog_appended.csv','nr-daily-logs')
     
-    print("file exported to blob so file held locally is removed")
-    os.remove('appended_output//nrlog_appended.csv')
+    #print("file exported to blob so file held locally is removed")
+    #os.remove('appended_output//nrlog_appended.csv')
 
     print ('moving processed word files out of the way to /word_documents/holding pen/already processed/')
     move_processed_word_docs('word_documents//','word_documents/holding pen//already processed//')
